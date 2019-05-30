@@ -1,0 +1,5 @@
+https://github.com/mymonero/mymonero-core-js.git
+https://github.com/monero-ecosystem/monero-javascript.git
+https://www.npmjs.com/package/monero-nodejs == https://github.com/PsychicCat/monero-nodejs.git
+https://github.com/sneurlax/monerojs
+https://monero.stackexchange.com/questions/11288/using-sneurlax-monerojs-and-im-having-a-problem-connecting-to-wallet

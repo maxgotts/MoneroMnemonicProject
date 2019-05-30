@@ -1,0 +1,12 @@
+api.xhr = new XMLHttpRequest()
+api.xhr.open("",url+"");
+					api.xhr.setRequestHeader("Content-Type","application/json");
+					api.xhr.setRequestHeader("Authorization","token "+user.token);
+					//api.xhr.setRequestHeader("el-team",team.tid);
+					api.xhr.send(JSON.stringify({
+	
+					}));
+					api.xhr.onload = function(e) {
+						api.xml = JSON.parse(api.xhr.response);
+						chain();
+					}

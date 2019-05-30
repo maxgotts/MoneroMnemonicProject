@@ -1,0 +1,21 @@
+{
+  "name": "venmonero",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "monero-nodejs": "^3.2.2",
+    "monerojs": "^0.1.8"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/maxgotts/venmonero.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/maxgotts/venmonero/issues"
+  },
+  "homepage": "https://github.com/maxgotts/venmonero#readme"
+}
