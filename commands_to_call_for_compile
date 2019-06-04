@@ -1,3 +1,0 @@
-./monero-wallet-rpc --rpc-bind-port 28083 --disable-rpc-login --wallet-dir .
-./monerod [--stagenet]
-node index.js

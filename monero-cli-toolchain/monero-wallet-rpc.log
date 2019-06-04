@@ -1,24 +1,62 @@
-2019-05-30 21:14:10.716	  0x7fffab02d380	INFO 	logging	contrib/epee/src/mlog.cpp:277	New log categories: *:WARNING,net:FATAL,net.http:FATAL,net.p2p:FATAL,net.cn:FATAL,global:INFO,verify:FATAL,stacktrace:INFO,logging:INFO,msgwriter:INFO
-2019-05-30 21:14:10.717	  0x7fffab02d380	INFO 	global	contrib/epee/include/net/http_server_impl_base.h:76	Binding on 127.0.0.1:28083
-2019-05-30 21:14:10.718	  0x7fffab02d380	WARN 	wallet.rpc	src/wallet/wallet_rpc_server.cpp:3455	Starting wallet RPC server
-2019-05-30 21:14:11.140	[SRV_MAIN]	WARN 	wallet.rpc	src/wallet/wallet_rpc_server.cpp:3465	Stopped wallet RPC server
-2019-05-30 21:14:11.140	[SRV_MAIN]	WARN 	wallet.rpc	src/wallet/wallet_rpc_server.cpp:3468	Saving wallet...
-2019-05-30 21:14:11.140	[SRV_MAIN]	WARN 	wallet.rpc	src/wallet/wallet_rpc_server.cpp:3470	Successfully saved
-2019-05-30 21:14:34.082	  0x7fffab02d380	INFO 	logging	contrib/epee/src/mlog.cpp:277	New log categories: *:WARNING,net:FATAL,net.http:FATAL,net.p2p:FATAL,net.cn:FATAL,global:INFO,verify:FATAL,stacktrace:INFO,logging:INFO,msgwriter:INFO
-2019-05-30 21:14:34.082	  0x7fffab02d380	INFO 	global	contrib/epee/include/net/http_server_impl_base.h:76	Binding on 127.0.0.1:28083
-2019-05-30 21:14:34.083	  0x7fffab02d380	WARN 	wallet.rpc	src/wallet/wallet_rpc_server.cpp:3455	Starting wallet RPC server
-2019-05-30 21:14:34.706	[SRV_MAIN]	WARN 	wallet.rpc	src/wallet/wallet_rpc_server.cpp:3465	Stopped wallet RPC server
-2019-05-30 21:14:34.706	[SRV_MAIN]	WARN 	wallet.rpc	src/wallet/wallet_rpc_server.cpp:3468	Saving wallet...
-2019-05-30 21:14:34.706	[SRV_MAIN]	WARN 	wallet.rpc	src/wallet/wallet_rpc_server.cpp:3470	Successfully saved
-2019-05-31 05:00:13.267	  0x7fffab02d380	INFO 	logging	contrib/epee/src/mlog.cpp:277	New log categories: *:WARNING,net:FATAL,net.http:FATAL,net.p2p:FATAL,net.cn:FATAL,global:INFO,verify:FATAL,stacktrace:INFO,logging:INFO,msgwriter:INFO
-2019-05-31 05:00:13.268	  0x7fffab02d380	INFO 	global	contrib/epee/include/net/http_server_impl_base.h:76	Binding on 127.0.0.1:28083
-2019-05-31 05:00:13.269	  0x7fffab02d380	WARN 	wallet.rpc	src/wallet/wallet_rpc_server.cpp:3455	Starting wallet RPC server
-2019-05-31 05:00:17.538	[SRV_MAIN]	WARN 	wallet.rpc	src/wallet/wallet_rpc_server.cpp:3465	Stopped wallet RPC server
-2019-05-31 05:00:17.538	[SRV_MAIN]	WARN 	wallet.rpc	src/wallet/wallet_rpc_server.cpp:3468	Saving wallet...
-2019-05-31 05:00:17.538	[SRV_MAIN]	WARN 	wallet.rpc	src/wallet/wallet_rpc_server.cpp:3470	Successfully saved
-2019-05-31 05:00:33.818	  0x7fffab02d380	INFO 	logging	contrib/epee/src/mlog.cpp:277	New log categories: *:WARNING,net:FATAL,net.http:FATAL,net.p2p:FATAL,net.cn:FATAL,global:INFO,verify:FATAL,stacktrace:INFO,logging:INFO,msgwriter:INFO
-2019-05-31 05:00:33.819	  0x7fffab02d380	INFO 	global	contrib/epee/include/net/http_server_impl_base.h:76	Binding on 127.0.0.1:28083
-2019-05-31 05:00:33.819	  0x7fffab02d380	WARN 	wallet.rpc	src/wallet/wallet_rpc_server.cpp:3455	Starting wallet RPC server
-2019-05-31 15:20:31.163	[SRV_MAIN]	WARN 	wallet.rpc	src/wallet/wallet_rpc_server.cpp:3465	Stopped wallet RPC server
-2019-05-31 15:20:31.163	[SRV_MAIN]	WARN 	wallet.rpc	src/wallet/wallet_rpc_server.cpp:3468	Saving wallet...
-2019-05-31 15:20:31.163	[SRV_MAIN]	WARN 	wallet.rpc	src/wallet/wallet_rpc_server.cpp:3470	Successfully saved
+2019-06-04 21:54:40.767	  0x7fffab02d380	INFO 	logging	contrib/epee/src/mlog.cpp:277	New log categories: *:WARNING,net:FATAL,net.http:FATAL,net.p2p:FATAL,net.cn:FATAL,global:INFO,verify:FATAL,stacktrace:INFO,logging:INFO,msgwriter:INFO
+2019-06-04 21:54:40.768	  0x7fffab02d380	INFO 	global	contrib/epee/include/net/http_server_impl_base.h:76	Binding on 127.0.0.1:28083
+2019-06-04 21:54:40.768	  0x7fffab02d380	WARN 	wallet.rpc	src/wallet/wallet_rpc_server.cpp:3455	Starting wallet RPC server
+2019-06-04 21:54:41.680	[RPC0]	WARN 	default	src/mnemonics/language_base.h:110	Español word 'asa' is shorter than its prefix length, 4
+2019-06-04 21:54:41.680	[RPC0]	WARN 	default	src/mnemonics/language_base.h:110	Español word 'ave' is shorter than its prefix length, 4
+2019-06-04 21:54:41.680	[RPC0]	WARN 	default	src/mnemonics/language_base.h:110	Español word 'boa' is shorter than its prefix length, 4
+2019-06-04 21:54:41.680	[RPC0]	WARN 	default	src/mnemonics/language_base.h:110	Español word 'cal' is shorter than its prefix length, 4
+2019-06-04 21:54:41.681	[RPC0]	WARN 	default	src/mnemonics/language_base.h:110	Español word 'dar' is shorter than its prefix length, 4
+2019-06-04 21:54:41.681	[RPC0]	WARN 	default	src/mnemonics/language_base.h:110	Español word 'don' is shorter than its prefix length, 4
+2019-06-04 21:54:41.681	[RPC0]	WARN 	default	src/mnemonics/language_base.h:110	Español word 'dos' is shorter than its prefix length, 4
+2019-06-04 21:54:41.681	[RPC0]	WARN 	default	src/mnemonics/language_base.h:110	Español word 'eco' is shorter than its prefix length, 4
+2019-06-04 21:54:41.681	[RPC0]	WARN 	default	src/mnemonics/language_base.h:110	Español word 'eje' is shorter than its prefix length, 4
+2019-06-04 21:54:41.681	[RPC0]	WARN 	default	src/mnemonics/language_base.h:110	Español word 'fax' is shorter than its prefix length, 4
+2019-06-04 21:54:41.681	[RPC0]	WARN 	default	src/mnemonics/language_base.h:110	Español word 'feo' is shorter than its prefix length, 4
+2019-06-04 21:54:41.681	[RPC0]	WARN 	default	src/mnemonics/language_base.h:110	Español word 'fin' is shorter than its prefix length, 4
+2019-06-04 21:54:41.681	[RPC0]	WARN 	default	src/mnemonics/language_base.h:110	Español word 'gen' is shorter than its prefix length, 4
+2019-06-04 21:54:41.682	[RPC0]	WARN 	default	src/mnemonics/language_base.h:110	Español word 'gol' is shorter than its prefix length, 4
+2019-06-04 21:54:41.682	[RPC0]	WARN 	default	src/mnemonics/language_base.h:110	Español word 'haz' is shorter than its prefix length, 4
+2019-06-04 21:54:41.682	[RPC0]	WARN 	default	src/mnemonics/language_base.h:110	Español word 'ira' is shorter than its prefix length, 4
+2019-06-04 21:54:41.682	[RPC0]	WARN 	default	src/mnemonics/language_base.h:110	Español word 'luz' is shorter than its prefix length, 4
+2019-06-04 21:54:41.682	[RPC0]	WARN 	default	src/mnemonics/language_base.h:110	Español word 'mar' is shorter than its prefix length, 4
+2019-06-04 21:54:41.682	[RPC0]	WARN 	default	src/mnemonics/language_base.h:110	Español word 'mes' is shorter than its prefix length, 4
+2019-06-04 21:54:41.682	[RPC0]	WARN 	default	src/mnemonics/language_base.h:110	Español word 'mil' is shorter than its prefix length, 4
+2019-06-04 21:54:41.683	[RPC0]	WARN 	default	src/mnemonics/language_base.h:110	Español word 'oca' is shorter than its prefix length, 4
+2019-06-04 21:54:41.683	[RPC0]	WARN 	default	src/mnemonics/language_base.h:110	Español word 'ojo' is shorter than its prefix length, 4
+2019-06-04 21:54:41.683	[RPC0]	WARN 	default	src/mnemonics/language_base.h:110	Español word 'ola' is shorter than its prefix length, 4
+2019-06-04 21:54:41.683	[RPC0]	WARN 	default	src/mnemonics/language_base.h:110	Español word 'oro' is shorter than its prefix length, 4
+2019-06-04 21:54:41.683	[RPC0]	WARN 	default	src/mnemonics/language_base.h:110	Español word 'oso' is shorter than its prefix length, 4
+2019-06-04 21:54:41.683	[RPC0]	WARN 	default	src/mnemonics/language_base.h:110	Español word 'pan' is shorter than its prefix length, 4
+2019-06-04 21:54:41.683	[RPC0]	WARN 	default	src/mnemonics/language_base.h:110	Español word 'pez' is shorter than its prefix length, 4
+2019-06-04 21:54:41.683	[RPC0]	WARN 	default	src/mnemonics/language_base.h:110	Español word 'pie' is shorter than its prefix length, 4
+2019-06-04 21:54:41.683	[RPC0]	WARN 	default	src/mnemonics/language_base.h:110	Español word 'red' is shorter than its prefix length, 4
+2019-06-04 21:54:41.683	[RPC0]	WARN 	default	src/mnemonics/language_base.h:110	Español word 'res' is shorter than its prefix length, 4
+2019-06-04 21:54:41.684	[RPC0]	WARN 	default	src/mnemonics/language_base.h:110	Español word 'rey' is shorter than its prefix length, 4
+2019-06-04 21:54:42.500	[RPC0]	ERROR	wallet.wallet2	src/wallet/wallet2.cpp:4585	!is_keys_file_locked(). THROW EXCEPTION: error::wallet_internal_error
+2019-06-04 21:55:00.857	[RPC0]	ERROR	wallet.wallet2	src/wallet/wallet2.cpp:2045	!r. THROW EXCEPTION: error::no_connection_to_daemon
+2019-06-04 21:55:00.859	[RPC0]	ERROR	wallet.rpc	src/wallet/wallet_rpc_server.cpp:125	Exception at while refreshing, what=no connection to daemon
+2019-06-04 21:55:20.879	[RPC0]	ERROR	wallet.wallet2	src/wallet/wallet2.cpp:2045	!r. THROW EXCEPTION: error::no_connection_to_daemon
+2019-06-04 21:55:20.879	[RPC0]	ERROR	wallet.rpc	src/wallet/wallet_rpc_server.cpp:125	Exception at while refreshing, what=no connection to daemon
+2019-06-04 21:55:40.898	[RPC0]	ERROR	wallet.wallet2	src/wallet/wallet2.cpp:2045	!r. THROW EXCEPTION: error::no_connection_to_daemon
+2019-06-04 21:55:40.898	[RPC0]	ERROR	wallet.rpc	src/wallet/wallet_rpc_server.cpp:125	Exception at while refreshing, what=no connection to daemon
+2019-06-04 21:56:00.921	[RPC0]	ERROR	wallet.wallet2	src/wallet/wallet2.cpp:2045	!r. THROW EXCEPTION: error::no_connection_to_daemon
+2019-06-04 21:56:00.921	[RPC0]	ERROR	wallet.rpc	src/wallet/wallet_rpc_server.cpp:125	Exception at while refreshing, what=no connection to daemon
+2019-06-04 21:56:09.176	[RPC0]	ERROR	wallet.wallet2	src/wallet/wallet2.cpp:4585	!is_keys_file_locked(). THROW EXCEPTION: error::wallet_internal_error
+2019-06-04 21:56:20.976	[RPC0]	ERROR	wallet.wallet2	src/wallet/wallet2.cpp:2045	!r. THROW EXCEPTION: error::no_connection_to_daemon
+2019-06-04 21:56:20.976	[RPC0]	ERROR	wallet.rpc	src/wallet/wallet_rpc_server.cpp:125	Exception at while refreshing, what=no connection to daemon
+2019-06-04 21:56:40.992	[RPC0]	ERROR	wallet.wallet2	src/wallet/wallet2.cpp:2045	!r. THROW EXCEPTION: error::no_connection_to_daemon
+2019-06-04 21:56:40.992	[RPC0]	ERROR	wallet.rpc	src/wallet/wallet_rpc_server.cpp:125	Exception at while refreshing, what=no connection to daemon
+2019-06-04 21:57:01.017	[RPC0]	ERROR	wallet.wallet2	src/wallet/wallet2.cpp:2045	!r. THROW EXCEPTION: error::no_connection_to_daemon
+2019-06-04 21:57:01.017	[RPC0]	ERROR	wallet.rpc	src/wallet/wallet_rpc_server.cpp:125	Exception at while refreshing, what=no connection to daemon
+2019-06-04 21:57:21.034	[RPC0]	ERROR	wallet.wallet2	src/wallet/wallet2.cpp:2045	!r. THROW EXCEPTION: error::no_connection_to_daemon
+2019-06-04 21:57:21.034	[RPC0]	ERROR	wallet.rpc	src/wallet/wallet_rpc_server.cpp:125	Exception at while refreshing, what=no connection to daemon
+2019-06-04 21:57:41.050	[RPC0]	ERROR	wallet.wallet2	src/wallet/wallet2.cpp:2045	!r. THROW EXCEPTION: error::no_connection_to_daemon
+2019-06-04 21:57:41.050	[RPC0]	ERROR	wallet.rpc	src/wallet/wallet_rpc_server.cpp:125	Exception at while refreshing, what=no connection to daemon
+2019-06-04 21:58:01.076	[RPC0]	ERROR	wallet.wallet2	src/wallet/wallet2.cpp:2045	!r. THROW EXCEPTION: error::no_connection_to_daemon
+2019-06-04 21:58:01.076	[RPC0]	ERROR	wallet.rpc	src/wallet/wallet_rpc_server.cpp:125	Exception at while refreshing, what=no connection to daemon
+2019-06-04 21:58:21.092	[RPC0]	ERROR	wallet.wallet2	src/wallet/wallet2.cpp:2045	!r. THROW EXCEPTION: error::no_connection_to_daemon
+2019-06-04 21:58:21.092	[RPC0]	ERROR	wallet.rpc	src/wallet/wallet_rpc_server.cpp:125	Exception at while refreshing, what=no connection to daemon
+2019-06-04 21:58:41.112	[RPC0]	ERROR	wallet.wallet2	src/wallet/wallet2.cpp:2045	!r. THROW EXCEPTION: error::no_connection_to_daemon
+2019-06-04 21:58:41.112	[RPC0]	ERROR	wallet.rpc	src/wallet/wallet_rpc_server.cpp:125	Exception at while refreshing, what=no connection to daemon
+2019-06-04 21:59:01.129	[RPC0]	ERROR	wallet.wallet2	src/wallet/wallet2.cpp:2045	!r. THROW EXCEPTION: error::no_connection_to_daemon
+2019-06-04 21:59:01.129	[RPC0]	ERROR	wallet.rpc	src/wallet/wallet_rpc_server.cpp:125	Exception at while refreshing, what=no connection to daemon
