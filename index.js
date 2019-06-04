@@ -15,20 +15,24 @@ var daemonRPC = new Monero.daemonRPC({ autoconnect: true })
 	throw new Error(err);
 });
 
-
 function createAndOpenWallet(walletRPC) {
-	const walletName = "wallet-"+(sha1(new Date().getTime())).slice(0,6)
+	const walletName = "wallet-"+(sha1("extreme-panda-water-bottles" + new Date().getTime())).slice(0,6)
 	return walletRPC.create_wallet(walletName, '')
 		.then(new_wallet => {
-			walletRPC.open_wallet(walletName, '')
-			.then(wallet => {
-				walletRPC.getaddress()
-				.then(balance => {
-					console.log("createAndOpenWallet " + walletName + ".key success");
-				})
-				.catch(err => {
-					console.error(err);
-				});
+			console.log("wallet created \"" + walletName + ".key\" success")
+			openWallet(walletRPC, walletName)
+		})
+		.catch(err => {
+			console.error(err);
+		});
+}
+
+function openWallet(walletRPC, walletName) {
+	return walletRPC.open_wallet(walletName, '')
+		.then(wallet => {
+			walletRPC.getaddress()
+			.then(balance => {
+				console.log("wallet opened \"" + walletName + ".key\" success");
 			})
 			.catch(err => {
 				console.error(err);
@@ -38,4 +42,3 @@ function createAndOpenWallet(walletRPC) {
 			console.error(err);
 		});
 }
-
