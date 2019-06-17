@@ -1,8 +1,0 @@
-createAndOpenWallet new-wallet.key success
-Your mnemonic is: shuffled abyss ceiling touchy else dwarf ardent water buckets meant border yesterday linen library woes fall hull faked veteran soya cuddled tequila august border woes
-createAndOpenWallet new-wallet.key success
-Your mnemonic is: jamming faxed hijack copy fuel truth daily soggy lectures dwelt looking typist argue enough tweezers galaxy hence session meant mostly seventh romance king laptop hence
-createAndOpenWallet new-wallet.key success
-Your mnemonic is: lucky biweekly vapidly pulp itches toolbox sabotage junk fowls iris hijack soprano ravine bypass vane onward doorway jabbed ungainly coexist candy uncle vessel wolf wolf
-createAndOpenWallet new-wallet.key success
-Your mnemonic is: jellyfish bimonthly mops hawk odds cogs jagged shrugged rodent razor aloof twang august inorganic nudged salads uneven jackets tirade sober slower bested tobacco urgent bested
