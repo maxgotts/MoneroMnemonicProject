@@ -1,7 +1,8 @@
 const Monero = require('monerojs');
 var fs = require('fs');
 
-const walletName = "new-wallet"
+const TheWalletName = "new-wallet"
+const mnemonicHint = "turtle"
 
 var daemonRPC = new Monero.daemonRPC({ autoconnect: true })
 	.then((daemon) => {
@@ -10,17 +11,40 @@ var daemonRPC = new Monero.daemonRPC({ autoconnect: true })
 		var walletRPC = new Monero.walletRPC() // Connect with defaults
 		.then(wallet => {
 			walletRPC = wallet;
-			createMnemonic(walletRPC, "jazz")
+			createMnemonic(walletRPC, mnemonicHint)
 		});
 	})
 	.catch(err => {
 		throw new Error(err);
 	});
 
-function createWallet(walletRPC)
+function createWallet(walletRPC, walletName, chain) {
+	walletRPC.create_wallet(walletName, '')
+		.then(new_wallet => {
+			console.log("createWallet " + walletName + ".key success");
+			chain(walletRPC, walletName)
+		})
+		.catch(err => {
+			console.error(err);
+		});
+}
 
-function createAndOpenWallet(walletRPC, chain) {
-	return walletRPC.create_wallet(walletName, '')
+function openWallet(walletRPC, walletName, chain) {
+	walletRPC.open_wallet(walletName, '')
+	.then(wallet => {
+		console.log("openWallet " + walletName + ".key success");
+		chain(walletRPC)
+	})
+}
+
+function createAndOpenWallet2(walletRPC, walletName, chain) {
+	createWallet(walletRPC, walletName, function(walletRPC) {
+		openWallet(walletRPC, walletName, chain)
+	});
+}
+
+function createAndOpenWallet(walletRPC, walletName, chain) {
+	walletRPC.create_wallet(walletName, '')
 		.then(new_wallet => {
 			walletRPC.open_wallet(walletName, '')
 			.then(wallet => {
@@ -48,12 +72,12 @@ function getMnemonic(walletRPC, keyIncludes, chain) {
 }
 
 function createMnemonic(walletRPC, keyIncludes) {
-	createAndOpenWallet(walletRPC, function(walletRPC) {
+	createAndOpenWallet2(walletRPC, TheWalletName, function(walletRPC) {
 		getMnemonic(walletRPC, keyIncludes, function(walletRPC, mnemonicOutput) {
-			if (mnemonicOutput.keyIncluded) { return menonic; }
+			if (mnemonicOutput.keyIncluded) { return mnemonic; }
 			else {
-				fs.unlink("./wallets/"+walletName+".keys", function() { // delete previous new-wallet.key
-					fs.unlink("./wallets/"+walletName, function() { // delete previous new-wallet
+				fs.unlink("./wallets/"+TheWalletName+".keys", function() { // delete previous new-wallet.key
+					fs.unlink("./wallets/"+TheWalletName, function() { // delete previous new-wallet
 						createMnemonic(walletRPC, keyIncludes);
 					});
 				});
