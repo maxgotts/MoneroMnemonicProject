@@ -4,6 +4,7 @@ var fs = require('fs');
 const TheWalletName = "new-wallet"
 const mnemonicHint = "turtle"
 
+/* Start up the Daemon RPC and Call createMnemonic */
 var daemonRPC = new Monero.daemonRPC({ autoconnect: true })
 	.then((daemon) => {
 		daemonRPC = daemon; // Store daemon interface in global variable
@@ -18,6 +19,7 @@ var daemonRPC = new Monero.daemonRPC({ autoconnect: true })
 		throw new Error(err);
 	});
 
+/* Create and Open a Wallet */
 function createWallet(walletRPC, walletName, chain) {
 	walletRPC.create_wallet(walletName, '')
 		.then(new_wallet => {
@@ -37,13 +39,12 @@ function openWallet(walletRPC, walletName, chain) {
 	})
 }
 
-function createAndOpenWallet2(walletRPC, walletName, chain) {
+function createAndOpenWalletByParts(walletRPC, walletName, chain) {
 	createWallet(walletRPC, walletName, function(walletRPC) {
 		openWallet(walletRPC, walletName, chain)
 	});
 }
-
-function createAndOpenWallet(walletRPC, walletName, chain) {
+function createAndOpenWalletAllInOne(walletRPC, walletName, chain) {
 	walletRPC.create_wallet(walletName, '')
 		.then(new_wallet => {
 			walletRPC.open_wallet(walletName, '')
@@ -59,7 +60,9 @@ function createAndOpenWallet(walletRPC, walletName, chain) {
 			console.error(err);
 		});
 }
+function createAndOpenWallet(walletRPC, walletName, chain) { createAndOpenWalletByParts(walletRPC, walletName, chain); } // rename
 
+/* Get the Mnemonic of an Opened Wallet */
 function getMnemonic(walletRPC, keyIncludes, chain) {
 	walletRPC.mnemonic()
 		.then(mnemonic => {
@@ -71,8 +74,9 @@ function getMnemonic(walletRPC, keyIncludes, chain) {
 		});
 }
 
+/* Create Wallets again and again until the Mnemonic of that Wallet contains a certain Substring */
 function createMnemonic(walletRPC, keyIncludes) {
-	createAndOpenWallet2(walletRPC, TheWalletName, function(walletRPC) {
+	createAndOpenWallet(walletRPC, TheWalletName, function(walletRPC) {
 		getMnemonic(walletRPC, keyIncludes, function(walletRPC, mnemonicOutput) {
 			if (mnemonicOutput.keyIncluded) { return mnemonic; }
 			else {
