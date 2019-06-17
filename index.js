@@ -1,5 +1,4 @@
 const Monero = require('monerojs');
-const sha1 = require('js-sha1');
 
 var daemonRPC = new Monero.daemonRPC({ autoconnect: true })
 .then((daemon) => {
@@ -8,31 +7,21 @@ var daemonRPC = new Monero.daemonRPC({ autoconnect: true })
 	var walletRPC = new Monero.walletRPC() // Connect with defaults
 	.then(wallet => {
 		walletRPC = wallet;
-		createAndOpenWallet(walletRPC);
+		createAndOpenWallet(walletRPC, getMnemonic);
 	});
 })
 .catch(err => {
 	throw new Error(err);
 });
 
-function createAndOpenWallet(walletRPC) {
-	const walletName = "wallet-"+(sha1("extreme-panda-water-bottles" + new Date().getTime())).slice(0,6)
+
+function createAndOpenWallet(walletRPC, chain) {
+	const walletName = "new-wallet"
 	return walletRPC.create_wallet(walletName, '')
 		.then(new_wallet => {
-			console.log("wallet created \"" + walletName + ".key\" success")
-			openWallet(walletRPC, walletName)
-		})
-		.catch(err => {
-			console.error(err);
-		});
-}
-
-function openWallet(walletRPC, walletName) {
-	return walletRPC.open_wallet(walletName, '')
-		.then(wallet => {
-			walletRPC.getaddress()
-			.then(balance => {
-				console.log("wallet opened \"" + walletName + ".key\" success");
+			walletRPC.open_wallet(walletName, '')
+			.then(wallet => {
+				chain(walletRPC)
 			})
 			.catch(err => {
 				console.error(err);
@@ -42,3 +31,16 @@ function openWallet(walletRPC, walletName) {
 			console.error(err);
 		});
 }
+
+function getMnemonic(walletRPC, keyIncludes) {
+	walletRPC.mnemonic()
+		.then(mnemonic => {
+			console.log("createAndOpenWallet " + walletName + ".key success");
+			console.log("Your mnemonic is: "+mnemonic.key)
+			return walletRPC
+		})
+		.catch(err => {
+			console.error(err);
+		});
+}
+
