@@ -1008,3 +1008,6 @@
 2019-06-17 22:34:56.790	[RPC0]	ERROR	wallet.wallet2	src/wallet/wallet2.cpp:4585	!is_keys_file_locked(). THROW EXCEPTION: error::wallet_internal_error
 2019-06-17 22:35:33.141	[RPC0]	ERROR	wallet.wallet2	src/wallet/wallet2.cpp:3747	boost::filesystem::exists(m_wallet_file, ignored_ec). THROW EXCEPTION: error::file_exists
 2019-06-17 22:35:33.271	[RPC0]	ERROR	wallet.wallet2	src/wallet/wallet2.cpp:4585	!is_keys_file_locked(). THROW EXCEPTION: error::wallet_internal_error
+2019-06-17 22:41:15.697	[RPC0]	ERROR	wallet.wallet2	src/wallet/wallet2.cpp:4585	!is_keys_file_locked(). THROW EXCEPTION: error::wallet_internal_error
+2019-06-17 22:41:45.220	[RPC0]	ERROR	wallet.wallet2	src/wallet/wallet2.cpp:3747	boost::filesystem::exists(m_wallet_file, ignored_ec). THROW EXCEPTION: error::file_exists
+2019-06-17 22:41:45.299	[RPC0]	ERROR	wallet.wallet2	src/wallet/wallet2.cpp:4585	!is_keys_file_locked(). THROW EXCEPTION: error::wallet_internal_error

@@ -21,6 +21,7 @@ function createAndOpenWallet(walletRPC, chain) {
 		.then(new_wallet => {
 			walletRPC.open_wallet(walletName, '')
 			.then(wallet => {
+				console.log("createAndOpenWallet " + walletName + ".key success");
 				chain(walletRPC)
 			})
 			.catch(err => {
@@ -35,7 +36,6 @@ function createAndOpenWallet(walletRPC, chain) {
 function getMnemonic(walletRPC, keyIncludes) {
 	walletRPC.mnemonic()
 		.then(mnemonic => {
-			console.log("createAndOpenWallet " + walletName + ".key success");
 			console.log("Your mnemonic is: "+mnemonic.key)
 			return walletRPC
 		})
