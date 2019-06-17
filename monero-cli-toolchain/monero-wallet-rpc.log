@@ -1011,3 +1011,526 @@
 2019-06-17 22:41:15.697	[RPC0]	ERROR	wallet.wallet2	src/wallet/wallet2.cpp:4585	!is_keys_file_locked(). THROW EXCEPTION: error::wallet_internal_error
 2019-06-17 22:41:45.220	[RPC0]	ERROR	wallet.wallet2	src/wallet/wallet2.cpp:3747	boost::filesystem::exists(m_wallet_file, ignored_ec). THROW EXCEPTION: error::file_exists
 2019-06-17 22:41:45.299	[RPC0]	ERROR	wallet.wallet2	src/wallet/wallet2.cpp:4585	!is_keys_file_locked(). THROW EXCEPTION: error::wallet_internal_error
+2019-06-17 22:48:15.952	[SRV_MAIN]	WARN 	wallet.rpc	src/wallet/wallet_rpc_server.cpp:3465	Stopped wallet RPC server
+2019-06-17 22:48:15.952	[SRV_MAIN]	WARN 	wallet.rpc	src/wallet/wallet_rpc_server.cpp:3468	Saving wallet...
+2019-06-17 22:48:17.164	[SRV_MAIN]	WARN 	wallet.rpc	src/wallet/wallet_rpc_server.cpp:3470	Successfully saved
+2019-06-17 22:48:24.092	  0x7fff9229f380	INFO 	logging	contrib/epee/src/mlog.cpp:277	New log categories: *:WARNING,net:FATAL,net.http:FATAL,net.p2p:FATAL,net.cn:FATAL,global:INFO,verify:FATAL,stacktrace:INFO,logging:INFO,msgwriter:INFO
+2019-06-17 22:48:24.093	  0x7fff9229f380	INFO 	global	contrib/epee/include/net/http_server_impl_base.h:76	Binding on 127.0.0.1:28083
+2019-06-17 22:48:24.093	  0x7fff9229f380	WARN 	wallet.rpc	src/wallet/wallet_rpc_server.cpp:3455	Starting wallet RPC server
+2019-06-17 22:48:26.628	[RPC0]	WARN 	default	src/mnemonics/language_base.h:110	Español word 'asa' is shorter than its prefix length, 4
+2019-06-17 22:48:26.628	[RPC0]	WARN 	default	src/mnemonics/language_base.h:110	Español word 'ave' is shorter than its prefix length, 4
+2019-06-17 22:48:26.628	[RPC0]	WARN 	default	src/mnemonics/language_base.h:110	Español word 'boa' is shorter than its prefix length, 4
+2019-06-17 22:48:26.628	[RPC0]	WARN 	default	src/mnemonics/language_base.h:110	Español word 'cal' is shorter than its prefix length, 4
+2019-06-17 22:48:26.628	[RPC0]	WARN 	default	src/mnemonics/language_base.h:110	Español word 'dar' is shorter than its prefix length, 4
+2019-06-17 22:48:26.628	[RPC0]	WARN 	default	src/mnemonics/language_base.h:110	Español word 'don' is shorter than its prefix length, 4
+2019-06-17 22:48:26.628	[RPC0]	WARN 	default	src/mnemonics/language_base.h:110	Español word 'dos' is shorter than its prefix length, 4
+2019-06-17 22:48:26.628	[RPC0]	WARN 	default	src/mnemonics/language_base.h:110	Español word 'eco' is shorter than its prefix length, 4
+2019-06-17 22:48:26.629	[RPC0]	WARN 	default	src/mnemonics/language_base.h:110	Español word 'eje' is shorter than its prefix length, 4
+2019-06-17 22:48:26.629	[RPC0]	WARN 	default	src/mnemonics/language_base.h:110	Español word 'fax' is shorter than its prefix length, 4
+2019-06-17 22:48:26.629	[RPC0]	WARN 	default	src/mnemonics/language_base.h:110	Español word 'feo' is shorter than its prefix length, 4
+2019-06-17 22:48:26.629	[RPC0]	WARN 	default	src/mnemonics/language_base.h:110	Español word 'fin' is shorter than its prefix length, 4
+2019-06-17 22:48:26.629	[RPC0]	WARN 	default	src/mnemonics/language_base.h:110	Español word 'gen' is shorter than its prefix length, 4
+2019-06-17 22:48:26.629	[RPC0]	WARN 	default	src/mnemonics/language_base.h:110	Español word 'gol' is shorter than its prefix length, 4
+2019-06-17 22:48:26.629	[RPC0]	WARN 	default	src/mnemonics/language_base.h:110	Español word 'haz' is shorter than its prefix length, 4
+2019-06-17 22:48:26.629	[RPC0]	WARN 	default	src/mnemonics/language_base.h:110	Español word 'ira' is shorter than its prefix length, 4
+2019-06-17 22:48:26.629	[RPC0]	WARN 	default	src/mnemonics/language_base.h:110	Español word 'luz' is shorter than its prefix length, 4
+2019-06-17 22:48:26.630	[RPC0]	WARN 	default	src/mnemonics/language_base.h:110	Español word 'mar' is shorter than its prefix length, 4
+2019-06-17 22:48:26.630	[RPC0]	WARN 	default	src/mnemonics/language_base.h:110	Español word 'mes' is shorter than its prefix length, 4
+2019-06-17 22:48:26.630	[RPC0]	WARN 	default	src/mnemonics/language_base.h:110	Español word 'mil' is shorter than its prefix length, 4
+2019-06-17 22:48:26.630	[RPC0]	WARN 	default	src/mnemonics/language_base.h:110	Español word 'oca' is shorter than its prefix length, 4
+2019-06-17 22:48:26.630	[RPC0]	WARN 	default	src/mnemonics/language_base.h:110	Español word 'ojo' is shorter than its prefix length, 4
+2019-06-17 22:48:26.630	[RPC0]	WARN 	default	src/mnemonics/language_base.h:110	Español word 'ola' is shorter than its prefix length, 4
+2019-06-17 22:48:26.630	[RPC0]	WARN 	default	src/mnemonics/language_base.h:110	Español word 'oro' is shorter than its prefix length, 4
+2019-06-17 22:48:26.630	[RPC0]	WARN 	default	src/mnemonics/language_base.h:110	Español word 'oso' is shorter than its prefix length, 4
+2019-06-17 22:48:26.630	[RPC0]	WARN 	default	src/mnemonics/language_base.h:110	Español word 'pan' is shorter than its prefix length, 4
+2019-06-17 22:48:26.631	[RPC0]	WARN 	default	src/mnemonics/language_base.h:110	Español word 'pez' is shorter than its prefix length, 4
+2019-06-17 22:48:26.631	[RPC0]	WARN 	default	src/mnemonics/language_base.h:110	Español word 'pie' is shorter than its prefix length, 4
+2019-06-17 22:48:26.631	[RPC0]	WARN 	default	src/mnemonics/language_base.h:110	Español word 'red' is shorter than its prefix length, 4
+2019-06-17 22:48:26.631	[RPC0]	WARN 	default	src/mnemonics/language_base.h:110	Español word 'res' is shorter than its prefix length, 4
+2019-06-17 22:48:26.631	[RPC0]	WARN 	default	src/mnemonics/language_base.h:110	Español word 'rey' is shorter than its prefix length, 4
+2019-06-17 22:48:26.703	[RPC0]	ERROR	wallet.wallet2	src/wallet/wallet2.cpp:3747	boost::filesystem::exists(m_wallet_file, ignored_ec). THROW EXCEPTION: error::file_exists
+2019-06-17 22:48:27.037	[RPC0]	WARN 	wallet.wallet2	src/wallet/wallet2.cpp:4593	Loaded wallet keys file, with public address: 44cYtGnM7FqQQExYysYixxZwMSAugpX4YH7UQ1HZcMCmfyfE8WbJAt5BQe7wDdkZhGJ17hiDGYWVnSzbTU2v57kXMxZMNGg
+2019-06-17 22:52:25.607	[RPC0]	ERROR	wallet.wallet2	src/wallet/wallet2.cpp:3747	boost::filesystem::exists(m_wallet_file, ignored_ec). THROW EXCEPTION: error::file_exists
+2019-06-17 22:52:25.701	[RPC0]	ERROR	wallet.wallet2	src/wallet/wallet2.cpp:4585	!is_keys_file_locked(). THROW EXCEPTION: error::wallet_internal_error
+2019-06-17 22:52:25.801	[RPC0]	ERROR	wallet.wallet2	src/wallet/wallet2.cpp:3747	boost::filesystem::exists(m_wallet_file, ignored_ec). THROW EXCEPTION: error::file_exists
+2019-06-17 22:52:25.881	[RPC0]	ERROR	wallet.wallet2	src/wallet/wallet2.cpp:4585	!is_keys_file_locked(). THROW EXCEPTION: error::wallet_internal_error
+2019-06-17 22:52:25.981	[RPC0]	ERROR	wallet.wallet2	src/wallet/wallet2.cpp:3747	boost::filesystem::exists(m_wallet_file, ignored_ec). THROW EXCEPTION: error::file_exists
+2019-06-17 22:52:26.047	[RPC0]	ERROR	wallet.wallet2	src/wallet/wallet2.cpp:4585	!is_keys_file_locked(). THROW EXCEPTION: error::wallet_internal_error
+2019-06-17 22:52:26.138	[RPC0]	ERROR	wallet.wallet2	src/wallet/wallet2.cpp:3747	boost::filesystem::exists(m_wallet_file, ignored_ec). THROW EXCEPTION: error::file_exists
+2019-06-17 22:52:26.220	[RPC0]	ERROR	wallet.wallet2	src/wallet/wallet2.cpp:4585	!is_keys_file_locked(). THROW EXCEPTION: error::wallet_internal_error
+2019-06-17 22:52:26.405	[RPC0]	ERROR	wallet.wallet2	src/wallet/wallet2.cpp:3747	boost::filesystem::exists(m_wallet_file, ignored_ec). THROW EXCEPTION: error::file_exists
+2019-06-17 22:52:26.532	[RPC0]	ERROR	wallet.wallet2	src/wallet/wallet2.cpp:4585	!is_keys_file_locked(). THROW EXCEPTION: error::wallet_internal_error
+2019-06-17 22:52:26.663	[RPC0]	ERROR	wallet.wallet2	src/wallet/wallet2.cpp:3747	boost::filesystem::exists(m_wallet_file, ignored_ec). THROW EXCEPTION: error::file_exists
+2019-06-17 22:52:26.800	[RPC0]	ERROR	wallet.wallet2	src/wallet/wallet2.cpp:4585	!is_keys_file_locked(). THROW EXCEPTION: error::wallet_internal_error
+2019-06-17 22:52:26.971	[RPC0]	ERROR	wallet.wallet2	src/wallet/wallet2.cpp:3747	boost::filesystem::exists(m_wallet_file, ignored_ec). THROW EXCEPTION: error::file_exists
+2019-06-17 22:52:27.095	[RPC0]	ERROR	wallet.wallet2	src/wallet/wallet2.cpp:4585	!is_keys_file_locked(). THROW EXCEPTION: error::wallet_internal_error
+2019-06-17 22:52:27.190	[RPC0]	ERROR	wallet.wallet2	src/wallet/wallet2.cpp:3747	boost::filesystem::exists(m_wallet_file, ignored_ec). THROW EXCEPTION: error::file_exists
+2019-06-17 22:52:27.308	[RPC0]	ERROR	wallet.wallet2	src/wallet/wallet2.cpp:4585	!is_keys_file_locked(). THROW EXCEPTION: error::wallet_internal_error
+2019-06-17 22:52:27.452	[RPC0]	ERROR	wallet.wallet2	src/wallet/wallet2.cpp:3747	boost::filesystem::exists(m_wallet_file, ignored_ec). THROW EXCEPTION: error::file_exists
+2019-06-17 22:52:27.569	[RPC0]	ERROR	wallet.wallet2	src/wallet/wallet2.cpp:4585	!is_keys_file_locked(). THROW EXCEPTION: error::wallet_internal_error
+2019-06-17 22:52:27.745	[RPC0]	ERROR	wallet.wallet2	src/wallet/wallet2.cpp:3747	boost::filesystem::exists(m_wallet_file, ignored_ec). THROW EXCEPTION: error::file_exists
+2019-06-17 22:52:27.821	[RPC0]	ERROR	wallet.wallet2	src/wallet/wallet2.cpp:4585	!is_keys_file_locked(). THROW EXCEPTION: error::wallet_internal_error
+2019-06-17 22:52:27.929	[RPC0]	ERROR	wallet.wallet2	src/wallet/wallet2.cpp:3747	boost::filesystem::exists(m_wallet_file, ignored_ec). THROW EXCEPTION: error::file_exists
+2019-06-17 22:52:28.109	[RPC0]	ERROR	wallet.wallet2	src/wallet/wallet2.cpp:4585	!is_keys_file_locked(). THROW EXCEPTION: error::wallet_internal_error
+2019-06-17 22:52:28.253	[RPC0]	ERROR	wallet.wallet2	src/wallet/wallet2.cpp:3747	boost::filesystem::exists(m_wallet_file, ignored_ec). THROW EXCEPTION: error::file_exists
+2019-06-17 22:52:28.360	[RPC0]	ERROR	wallet.wallet2	src/wallet/wallet2.cpp:4585	!is_keys_file_locked(). THROW EXCEPTION: error::wallet_internal_error
+2019-06-17 22:52:28.520	[RPC0]	ERROR	wallet.wallet2	src/wallet/wallet2.cpp:3747	boost::filesystem::exists(m_wallet_file, ignored_ec). THROW EXCEPTION: error::file_exists
+2019-06-17 22:52:28.617	[RPC0]	ERROR	wallet.wallet2	src/wallet/wallet2.cpp:4585	!is_keys_file_locked(). THROW EXCEPTION: error::wallet_internal_error
+2019-06-17 22:52:28.739	[RPC0]	ERROR	wallet.wallet2	src/wallet/wallet2.cpp:3747	boost::filesystem::exists(m_wallet_file, ignored_ec). THROW EXCEPTION: error::file_exists
+2019-06-17 22:52:28.829	[RPC0]	ERROR	wallet.wallet2	src/wallet/wallet2.cpp:4585	!is_keys_file_locked(). THROW EXCEPTION: error::wallet_internal_error
+2019-06-17 22:52:28.963	[RPC0]	ERROR	wallet.wallet2	src/wallet/wallet2.cpp:3747	boost::filesystem::exists(m_wallet_file, ignored_ec). THROW EXCEPTION: error::file_exists
+2019-06-17 22:52:29.086	[RPC0]	ERROR	wallet.wallet2	src/wallet/wallet2.cpp:4585	!is_keys_file_locked(). THROW EXCEPTION: error::wallet_internal_error
+2019-06-17 22:52:29.229	[RPC0]	ERROR	wallet.wallet2	src/wallet/wallet2.cpp:3747	boost::filesystem::exists(m_wallet_file, ignored_ec). THROW EXCEPTION: error::file_exists
+2019-06-17 22:52:29.345	[RPC0]	ERROR	wallet.wallet2	src/wallet/wallet2.cpp:4585	!is_keys_file_locked(). THROW EXCEPTION: error::wallet_internal_error
+2019-06-17 22:52:29.485	[RPC0]	ERROR	wallet.wallet2	src/wallet/wallet2.cpp:3747	boost::filesystem::exists(m_wallet_file, ignored_ec). THROW EXCEPTION: error::file_exists
+2019-06-17 22:52:29.592	[RPC0]	ERROR	wallet.wallet2	src/wallet/wallet2.cpp:4585	!is_keys_file_locked(). THROW EXCEPTION: error::wallet_internal_error
+2019-06-17 22:52:29.725	[RPC0]	ERROR	wallet.wallet2	src/wallet/wallet2.cpp:3747	boost::filesystem::exists(m_wallet_file, ignored_ec). THROW EXCEPTION: error::file_exists
+2019-06-17 22:52:29.821	[RPC0]	ERROR	wallet.wallet2	src/wallet/wallet2.cpp:4585	!is_keys_file_locked(). THROW EXCEPTION: error::wallet_internal_error
+2019-06-17 22:52:29.952	[RPC0]	ERROR	wallet.wallet2	src/wallet/wallet2.cpp:3747	boost::filesystem::exists(m_wallet_file, ignored_ec). THROW EXCEPTION: error::file_exists
+2019-06-17 22:52:30.048	[RPC0]	ERROR	wallet.wallet2	src/wallet/wallet2.cpp:4585	!is_keys_file_locked(). THROW EXCEPTION: error::wallet_internal_error
+2019-06-17 22:52:30.162	[RPC0]	ERROR	wallet.wallet2	src/wallet/wallet2.cpp:3747	boost::filesystem::exists(m_wallet_file, ignored_ec). THROW EXCEPTION: error::file_exists
+2019-06-17 22:52:30.262	[RPC0]	ERROR	wallet.wallet2	src/wallet/wallet2.cpp:4585	!is_keys_file_locked(). THROW EXCEPTION: error::wallet_internal_error
+2019-06-17 22:52:30.416	[RPC0]	ERROR	wallet.wallet2	src/wallet/wallet2.cpp:3747	boost::filesystem::exists(m_wallet_file, ignored_ec). THROW EXCEPTION: error::file_exists
+2019-06-17 22:52:30.523	[RPC0]	ERROR	wallet.wallet2	src/wallet/wallet2.cpp:4585	!is_keys_file_locked(). THROW EXCEPTION: error::wallet_internal_error
+2019-06-17 22:52:30.670	[RPC0]	ERROR	wallet.wallet2	src/wallet/wallet2.cpp:3747	boost::filesystem::exists(m_wallet_file, ignored_ec). THROW EXCEPTION: error::file_exists
+2019-06-17 22:52:30.892	[RPC0]	ERROR	wallet.wallet2	src/wallet/wallet2.cpp:4585	!is_keys_file_locked(). THROW EXCEPTION: error::wallet_internal_error
+2019-06-17 22:52:31.105	[RPC0]	ERROR	wallet.wallet2	src/wallet/wallet2.cpp:3747	boost::filesystem::exists(m_wallet_file, ignored_ec). THROW EXCEPTION: error::file_exists
+2019-06-17 22:52:31.233	[RPC0]	ERROR	wallet.wallet2	src/wallet/wallet2.cpp:4585	!is_keys_file_locked(). THROW EXCEPTION: error::wallet_internal_error
+2019-06-17 22:52:31.539	[RPC0]	ERROR	wallet.wallet2	src/wallet/wallet2.cpp:3747	boost::filesystem::exists(m_wallet_file, ignored_ec). THROW EXCEPTION: error::file_exists
+2019-06-17 22:52:31.782	[RPC0]	ERROR	wallet.wallet2	src/wallet/wallet2.cpp:4585	!is_keys_file_locked(). THROW EXCEPTION: error::wallet_internal_error
+2019-06-17 22:52:31.932	[RPC0]	ERROR	wallet.wallet2	src/wallet/wallet2.cpp:3747	boost::filesystem::exists(m_wallet_file, ignored_ec). THROW EXCEPTION: error::file_exists
+2019-06-17 22:52:32.157	[RPC0]	ERROR	wallet.wallet2	src/wallet/wallet2.cpp:4585	!is_keys_file_locked(). THROW EXCEPTION: error::wallet_internal_error
+2019-06-17 22:52:32.317	[RPC0]	ERROR	wallet.wallet2	src/wallet/wallet2.cpp:3747	boost::filesystem::exists(m_wallet_file, ignored_ec). THROW EXCEPTION: error::file_exists
+2019-06-17 22:52:32.520	[RPC0]	ERROR	wallet.wallet2	src/wallet/wallet2.cpp:4585	!is_keys_file_locked(). THROW EXCEPTION: error::wallet_internal_error
+2019-06-17 22:52:32.783	[RPC0]	ERROR	wallet.wallet2	src/wallet/wallet2.cpp:3747	boost::filesystem::exists(m_wallet_file, ignored_ec). THROW EXCEPTION: error::file_exists
+2019-06-17 22:52:32.906	[RPC0]	ERROR	wallet.wallet2	src/wallet/wallet2.cpp:4585	!is_keys_file_locked(). THROW EXCEPTION: error::wallet_internal_error
+2019-06-17 22:52:33.036	[RPC0]	ERROR	wallet.wallet2	src/wallet/wallet2.cpp:3747	boost::filesystem::exists(m_wallet_file, ignored_ec). THROW EXCEPTION: error::file_exists
+2019-06-17 22:52:33.140	[RPC0]	ERROR	wallet.wallet2	src/wallet/wallet2.cpp:4585	!is_keys_file_locked(). THROW EXCEPTION: error::wallet_internal_error
+2019-06-17 22:52:33.283	[RPC0]	ERROR	wallet.wallet2	src/wallet/wallet2.cpp:3747	boost::filesystem::exists(m_wallet_file, ignored_ec). THROW EXCEPTION: error::file_exists
+2019-06-17 22:52:33.413	[RPC0]	ERROR	wallet.wallet2	src/wallet/wallet2.cpp:4585	!is_keys_file_locked(). THROW EXCEPTION: error::wallet_internal_error
+2019-06-17 22:52:33.532	[RPC0]	ERROR	wallet.wallet2	src/wallet/wallet2.cpp:3747	boost::filesystem::exists(m_wallet_file, ignored_ec). THROW EXCEPTION: error::file_exists
+2019-06-17 22:52:37.708	[RPC0]	ERROR	wallet.wallet2	src/wallet/wallet2.cpp:4585	!is_keys_file_locked(). THROW EXCEPTION: error::wallet_internal_error
+2019-06-17 22:52:37.889	[RPC0]	ERROR	wallet.wallet2	src/wallet/wallet2.cpp:3747	boost::filesystem::exists(m_wallet_file, ignored_ec). THROW EXCEPTION: error::file_exists
+2019-06-17 22:52:38.017	[RPC0]	ERROR	wallet.wallet2	src/wallet/wallet2.cpp:4585	!is_keys_file_locked(). THROW EXCEPTION: error::wallet_internal_error
+2019-06-17 22:52:38.173	[RPC0]	ERROR	wallet.wallet2	src/wallet/wallet2.cpp:3747	boost::filesystem::exists(m_wallet_file, ignored_ec). THROW EXCEPTION: error::file_exists
+2019-06-17 22:52:38.262	[RPC0]	ERROR	wallet.wallet2	src/wallet/wallet2.cpp:4585	!is_keys_file_locked(). THROW EXCEPTION: error::wallet_internal_error
+2019-06-17 22:52:38.394	[RPC0]	ERROR	wallet.wallet2	src/wallet/wallet2.cpp:3747	boost::filesystem::exists(m_wallet_file, ignored_ec). THROW EXCEPTION: error::file_exists
+2019-06-17 22:52:38.551	[RPC0]	ERROR	wallet.wallet2	src/wallet/wallet2.cpp:4585	!is_keys_file_locked(). THROW EXCEPTION: error::wallet_internal_error
+2019-06-17 22:52:38.889	[RPC0]	ERROR	wallet.wallet2	src/wallet/wallet2.cpp:3747	boost::filesystem::exists(m_wallet_file, ignored_ec). THROW EXCEPTION: error::file_exists
+2019-06-17 22:52:39.118	[RPC0]	ERROR	wallet.wallet2	src/wallet/wallet2.cpp:4585	!is_keys_file_locked(). THROW EXCEPTION: error::wallet_internal_error
+2019-06-17 22:52:39.620	[RPC0]	ERROR	wallet.wallet2	src/wallet/wallet2.cpp:3747	boost::filesystem::exists(m_wallet_file, ignored_ec). THROW EXCEPTION: error::file_exists
+2019-06-17 22:52:39.918	[RPC0]	ERROR	wallet.wallet2	src/wallet/wallet2.cpp:4585	!is_keys_file_locked(). THROW EXCEPTION: error::wallet_internal_error
+2019-06-17 22:52:40.342	[RPC0]	ERROR	wallet.wallet2	src/wallet/wallet2.cpp:3747	boost::filesystem::exists(m_wallet_file, ignored_ec). THROW EXCEPTION: error::file_exists
+2019-06-17 22:52:40.528	[RPC0]	ERROR	wallet.wallet2	src/wallet/wallet2.cpp:4585	!is_keys_file_locked(). THROW EXCEPTION: error::wallet_internal_error
+2019-06-17 22:52:40.803	[RPC0]	ERROR	wallet.wallet2	src/wallet/wallet2.cpp:3747	boost::filesystem::exists(m_wallet_file, ignored_ec). THROW EXCEPTION: error::file_exists
+2019-06-17 22:52:41.419	[RPC0]	ERROR	wallet.wallet2	src/wallet/wallet2.cpp:4585	!is_keys_file_locked(). THROW EXCEPTION: error::wallet_internal_error
+2019-06-17 22:52:42.092	[RPC0]	ERROR	wallet.wallet2	src/wallet/wallet2.cpp:3747	boost::filesystem::exists(m_wallet_file, ignored_ec). THROW EXCEPTION: error::file_exists
+2019-06-17 22:52:42.291	[RPC0]	ERROR	wallet.wallet2	src/wallet/wallet2.cpp:4585	!is_keys_file_locked(). THROW EXCEPTION: error::wallet_internal_error
+2019-06-17 22:52:42.526	[RPC0]	ERROR	wallet.wallet2	src/wallet/wallet2.cpp:3747	boost::filesystem::exists(m_wallet_file, ignored_ec). THROW EXCEPTION: error::file_exists
+2019-06-17 22:52:42.708	[RPC0]	ERROR	wallet.wallet2	src/wallet/wallet2.cpp:4585	!is_keys_file_locked(). THROW EXCEPTION: error::wallet_internal_error
+2019-06-17 22:52:42.952	[RPC0]	ERROR	wallet.wallet2	src/wallet/wallet2.cpp:3747	boost::filesystem::exists(m_wallet_file, ignored_ec). THROW EXCEPTION: error::file_exists
+2019-06-17 22:52:43.200	[RPC0]	ERROR	wallet.wallet2	src/wallet/wallet2.cpp:4585	!is_keys_file_locked(). THROW EXCEPTION: error::wallet_internal_error
+2019-06-17 22:52:43.457	[RPC0]	ERROR	wallet.wallet2	src/wallet/wallet2.cpp:3747	boost::filesystem::exists(m_wallet_file, ignored_ec). THROW EXCEPTION: error::file_exists
+2019-06-17 22:52:43.742	[RPC0]	ERROR	wallet.wallet2	src/wallet/wallet2.cpp:4585	!is_keys_file_locked(). THROW EXCEPTION: error::wallet_internal_error
+2019-06-17 22:52:44.371	[RPC0]	ERROR	wallet.wallet2	src/wallet/wallet2.cpp:3747	boost::filesystem::exists(m_wallet_file, ignored_ec). THROW EXCEPTION: error::file_exists
+2019-06-17 22:52:45.007	[RPC0]	ERROR	wallet.wallet2	src/wallet/wallet2.cpp:4585	!is_keys_file_locked(). THROW EXCEPTION: error::wallet_internal_error
+2019-06-17 22:52:45.604	[RPC0]	ERROR	wallet.wallet2	src/wallet/wallet2.cpp:3747	boost::filesystem::exists(m_wallet_file, ignored_ec). THROW EXCEPTION: error::file_exists
+2019-06-17 22:52:45.951	[RPC0]	ERROR	wallet.wallet2	src/wallet/wallet2.cpp:4585	!is_keys_file_locked(). THROW EXCEPTION: error::wallet_internal_error
+2019-06-17 22:52:46.424	[RPC0]	ERROR	wallet.wallet2	src/wallet/wallet2.cpp:3747	boost::filesystem::exists(m_wallet_file, ignored_ec). THROW EXCEPTION: error::file_exists
+2019-06-17 22:52:46.859	[RPC0]	ERROR	wallet.wallet2	src/wallet/wallet2.cpp:4585	!is_keys_file_locked(). THROW EXCEPTION: error::wallet_internal_error
+2019-06-17 22:52:47.269	[RPC0]	ERROR	wallet.wallet2	src/wallet/wallet2.cpp:3747	boost::filesystem::exists(m_wallet_file, ignored_ec). THROW EXCEPTION: error::file_exists
+2019-06-17 22:52:47.616	[RPC0]	ERROR	wallet.wallet2	src/wallet/wallet2.cpp:4585	!is_keys_file_locked(). THROW EXCEPTION: error::wallet_internal_error
+2019-06-17 22:52:47.890	[RPC0]	ERROR	wallet.wallet2	src/wallet/wallet2.cpp:3747	boost::filesystem::exists(m_wallet_file, ignored_ec). THROW EXCEPTION: error::file_exists
+2019-06-17 22:52:48.136	[RPC0]	ERROR	wallet.wallet2	src/wallet/wallet2.cpp:4585	!is_keys_file_locked(). THROW EXCEPTION: error::wallet_internal_error
+2019-06-17 22:52:48.385	[RPC0]	ERROR	wallet.wallet2	src/wallet/wallet2.cpp:3747	boost::filesystem::exists(m_wallet_file, ignored_ec). THROW EXCEPTION: error::file_exists
+2019-06-17 22:52:48.555	[RPC0]	ERROR	wallet.wallet2	src/wallet/wallet2.cpp:4585	!is_keys_file_locked(). THROW EXCEPTION: error::wallet_internal_error
+2019-06-17 22:52:48.935	[RPC0]	ERROR	wallet.wallet2	src/wallet/wallet2.cpp:3747	boost::filesystem::exists(m_wallet_file, ignored_ec). THROW EXCEPTION: error::file_exists
+2019-06-17 22:52:49.301	[RPC0]	ERROR	wallet.wallet2	src/wallet/wallet2.cpp:4585	!is_keys_file_locked(). THROW EXCEPTION: error::wallet_internal_error
+2019-06-17 22:52:49.637	[RPC0]	ERROR	wallet.wallet2	src/wallet/wallet2.cpp:3747	boost::filesystem::exists(m_wallet_file, ignored_ec). THROW EXCEPTION: error::file_exists
+2019-06-17 22:52:49.808	[RPC0]	ERROR	wallet.wallet2	src/wallet/wallet2.cpp:4585	!is_keys_file_locked(). THROW EXCEPTION: error::wallet_internal_error
+2019-06-17 22:52:49.975	[RPC0]	ERROR	wallet.wallet2	src/wallet/wallet2.cpp:3747	boost::filesystem::exists(m_wallet_file, ignored_ec). THROW EXCEPTION: error::file_exists
+2019-06-17 22:52:50.090	[RPC0]	ERROR	wallet.wallet2	src/wallet/wallet2.cpp:4585	!is_keys_file_locked(). THROW EXCEPTION: error::wallet_internal_error
+2019-06-17 22:52:50.239	[RPC0]	ERROR	wallet.wallet2	src/wallet/wallet2.cpp:3747	boost::filesystem::exists(m_wallet_file, ignored_ec). THROW EXCEPTION: error::file_exists
+2019-06-17 22:52:50.372	[RPC0]	ERROR	wallet.wallet2	src/wallet/wallet2.cpp:4585	!is_keys_file_locked(). THROW EXCEPTION: error::wallet_internal_error
+2019-06-17 22:52:50.502	[RPC0]	ERROR	wallet.wallet2	src/wallet/wallet2.cpp:3747	boost::filesystem::exists(m_wallet_file, ignored_ec). THROW EXCEPTION: error::file_exists
+2019-06-17 22:52:50.617	[RPC0]	ERROR	wallet.wallet2	src/wallet/wallet2.cpp:4585	!is_keys_file_locked(). THROW EXCEPTION: error::wallet_internal_error
+2019-06-17 22:52:50.780	[RPC0]	ERROR	wallet.wallet2	src/wallet/wallet2.cpp:3747	boost::filesystem::exists(m_wallet_file, ignored_ec). THROW EXCEPTION: error::file_exists
+2019-06-17 22:52:51.008	[RPC0]	ERROR	wallet.wallet2	src/wallet/wallet2.cpp:4585	!is_keys_file_locked(). THROW EXCEPTION: error::wallet_internal_error
+2019-06-17 22:52:51.241	[RPC0]	ERROR	wallet.wallet2	src/wallet/wallet2.cpp:3747	boost::filesystem::exists(m_wallet_file, ignored_ec). THROW EXCEPTION: error::file_exists
+2019-06-17 22:52:51.464	[RPC0]	ERROR	wallet.wallet2	src/wallet/wallet2.cpp:4585	!is_keys_file_locked(). THROW EXCEPTION: error::wallet_internal_error
+2019-06-17 22:52:51.690	[RPC0]	ERROR	wallet.wallet2	src/wallet/wallet2.cpp:3747	boost::filesystem::exists(m_wallet_file, ignored_ec). THROW EXCEPTION: error::file_exists
+2019-06-17 22:52:51.856	[RPC0]	ERROR	wallet.wallet2	src/wallet/wallet2.cpp:4585	!is_keys_file_locked(). THROW EXCEPTION: error::wallet_internal_error
+2019-06-17 22:52:52.123	[RPC0]	ERROR	wallet.wallet2	src/wallet/wallet2.cpp:3747	boost::filesystem::exists(m_wallet_file, ignored_ec). THROW EXCEPTION: error::file_exists
+2019-06-17 22:52:52.590	[RPC0]	ERROR	wallet.wallet2	src/wallet/wallet2.cpp:4585	!is_keys_file_locked(). THROW EXCEPTION: error::wallet_internal_error
+2019-06-17 22:52:53.259	[RPC0]	ERROR	wallet.wallet2	src/wallet/wallet2.cpp:3747	boost::filesystem::exists(m_wallet_file, ignored_ec). THROW EXCEPTION: error::file_exists
+2019-06-17 22:52:53.643	[RPC0]	ERROR	wallet.wallet2	src/wallet/wallet2.cpp:4585	!is_keys_file_locked(). THROW EXCEPTION: error::wallet_internal_error
+2019-06-17 22:52:53.987	[RPC0]	ERROR	wallet.wallet2	src/wallet/wallet2.cpp:3747	boost::filesystem::exists(m_wallet_file, ignored_ec). THROW EXCEPTION: error::file_exists
+2019-06-17 22:52:54.245	[RPC0]	ERROR	wallet.wallet2	src/wallet/wallet2.cpp:4585	!is_keys_file_locked(). THROW EXCEPTION: error::wallet_internal_error
+2019-06-17 22:52:54.523	[RPC0]	ERROR	wallet.wallet2	src/wallet/wallet2.cpp:3747	boost::filesystem::exists(m_wallet_file, ignored_ec). THROW EXCEPTION: error::file_exists
+2019-06-17 22:52:54.812	[RPC0]	ERROR	wallet.wallet2	src/wallet/wallet2.cpp:4585	!is_keys_file_locked(). THROW EXCEPTION: error::wallet_internal_error
+2019-06-17 22:52:55.096	[RPC0]	ERROR	wallet.wallet2	src/wallet/wallet2.cpp:3747	boost::filesystem::exists(m_wallet_file, ignored_ec). THROW EXCEPTION: error::file_exists
+2019-06-17 22:52:55.289	[RPC0]	ERROR	wallet.wallet2	src/wallet/wallet2.cpp:4585	!is_keys_file_locked(). THROW EXCEPTION: error::wallet_internal_error
+2019-06-17 22:52:55.545	[RPC0]	ERROR	wallet.wallet2	src/wallet/wallet2.cpp:3747	boost::filesystem::exists(m_wallet_file, ignored_ec). THROW EXCEPTION: error::file_exists
+2019-06-17 22:52:55.694	[RPC0]	ERROR	wallet.wallet2	src/wallet/wallet2.cpp:4585	!is_keys_file_locked(). THROW EXCEPTION: error::wallet_internal_error
+2019-06-17 22:52:56.001	[RPC0]	ERROR	wallet.wallet2	src/wallet/wallet2.cpp:3747	boost::filesystem::exists(m_wallet_file, ignored_ec). THROW EXCEPTION: error::file_exists
+2019-06-17 22:52:56.237	[RPC0]	ERROR	wallet.wallet2	src/wallet/wallet2.cpp:4585	!is_keys_file_locked(). THROW EXCEPTION: error::wallet_internal_error
+2019-06-17 22:52:56.574	[RPC0]	ERROR	wallet.wallet2	src/wallet/wallet2.cpp:3747	boost::filesystem::exists(m_wallet_file, ignored_ec). THROW EXCEPTION: error::file_exists
+2019-06-17 22:52:56.809	[RPC0]	ERROR	wallet.wallet2	src/wallet/wallet2.cpp:4585	!is_keys_file_locked(). THROW EXCEPTION: error::wallet_internal_error
+2019-06-17 22:52:57.103	[RPC0]	ERROR	wallet.wallet2	src/wallet/wallet2.cpp:3747	boost::filesystem::exists(m_wallet_file, ignored_ec). THROW EXCEPTION: error::file_exists
+2019-06-17 22:52:57.292	[RPC0]	ERROR	wallet.wallet2	src/wallet/wallet2.cpp:4585	!is_keys_file_locked(). THROW EXCEPTION: error::wallet_internal_error
+2019-06-17 22:52:57.684	[RPC0]	ERROR	wallet.wallet2	src/wallet/wallet2.cpp:3747	boost::filesystem::exists(m_wallet_file, ignored_ec). THROW EXCEPTION: error::file_exists
+2019-06-17 22:53:01.789	[RPC0]	ERROR	wallet.wallet2	src/wallet/wallet2.cpp:4585	!is_keys_file_locked(). THROW EXCEPTION: error::wallet_internal_error
+2019-06-17 22:53:01.899	[RPC0]	ERROR	wallet.wallet2	src/wallet/wallet2.cpp:3747	boost::filesystem::exists(m_wallet_file, ignored_ec). THROW EXCEPTION: error::file_exists
+2019-06-17 22:53:01.973	[RPC0]	ERROR	wallet.wallet2	src/wallet/wallet2.cpp:4585	!is_keys_file_locked(). THROW EXCEPTION: error::wallet_internal_error
+2019-06-17 22:53:02.088	[RPC0]	ERROR	wallet.wallet2	src/wallet/wallet2.cpp:3747	boost::filesystem::exists(m_wallet_file, ignored_ec). THROW EXCEPTION: error::file_exists
+2019-06-17 22:53:02.192	[RPC0]	ERROR	wallet.wallet2	src/wallet/wallet2.cpp:4585	!is_keys_file_locked(). THROW EXCEPTION: error::wallet_internal_error
+2019-06-17 22:53:02.318	[RPC0]	ERROR	wallet.wallet2	src/wallet/wallet2.cpp:3747	boost::filesystem::exists(m_wallet_file, ignored_ec). THROW EXCEPTION: error::file_exists
+2019-06-17 22:53:02.414	[RPC0]	ERROR	wallet.wallet2	src/wallet/wallet2.cpp:4585	!is_keys_file_locked(). THROW EXCEPTION: error::wallet_internal_error
+2019-06-17 22:53:02.525	[RPC0]	ERROR	wallet.wallet2	src/wallet/wallet2.cpp:3747	boost::filesystem::exists(m_wallet_file, ignored_ec). THROW EXCEPTION: error::file_exists
+2019-06-17 22:53:02.605	[RPC0]	ERROR	wallet.wallet2	src/wallet/wallet2.cpp:4585	!is_keys_file_locked(). THROW EXCEPTION: error::wallet_internal_error
+2019-06-17 22:53:02.720	[RPC0]	ERROR	wallet.wallet2	src/wallet/wallet2.cpp:3747	boost::filesystem::exists(m_wallet_file, ignored_ec). THROW EXCEPTION: error::file_exists
+2019-06-17 22:53:02.790	[RPC0]	ERROR	wallet.wallet2	src/wallet/wallet2.cpp:4585	!is_keys_file_locked(). THROW EXCEPTION: error::wallet_internal_error
+2019-06-17 22:53:02.884	[RPC0]	ERROR	wallet.wallet2	src/wallet/wallet2.cpp:3747	boost::filesystem::exists(m_wallet_file, ignored_ec). THROW EXCEPTION: error::file_exists
+2019-06-17 22:53:02.960	[RPC0]	ERROR	wallet.wallet2	src/wallet/wallet2.cpp:4585	!is_keys_file_locked(). THROW EXCEPTION: error::wallet_internal_error
+2019-06-17 22:53:03.096	[RPC0]	ERROR	wallet.wallet2	src/wallet/wallet2.cpp:3747	boost::filesystem::exists(m_wallet_file, ignored_ec). THROW EXCEPTION: error::file_exists
+2019-06-17 22:53:03.223	[RPC0]	ERROR	wallet.wallet2	src/wallet/wallet2.cpp:4585	!is_keys_file_locked(). THROW EXCEPTION: error::wallet_internal_error
+2019-06-17 22:53:03.396	[RPC0]	ERROR	wallet.wallet2	src/wallet/wallet2.cpp:3747	boost::filesystem::exists(m_wallet_file, ignored_ec). THROW EXCEPTION: error::file_exists
+2019-06-17 22:53:03.519	[RPC0]	ERROR	wallet.wallet2	src/wallet/wallet2.cpp:4585	!is_keys_file_locked(). THROW EXCEPTION: error::wallet_internal_error
+2019-06-17 22:53:03.681	[RPC0]	ERROR	wallet.wallet2	src/wallet/wallet2.cpp:3747	boost::filesystem::exists(m_wallet_file, ignored_ec). THROW EXCEPTION: error::file_exists
+2019-06-17 22:53:03.826	[RPC0]	ERROR	wallet.wallet2	src/wallet/wallet2.cpp:4585	!is_keys_file_locked(). THROW EXCEPTION: error::wallet_internal_error
+2019-06-17 22:53:04.040	[RPC0]	ERROR	wallet.wallet2	src/wallet/wallet2.cpp:3747	boost::filesystem::exists(m_wallet_file, ignored_ec). THROW EXCEPTION: error::file_exists
+2019-06-17 22:53:04.322	[RPC0]	ERROR	wallet.wallet2	src/wallet/wallet2.cpp:4585	!is_keys_file_locked(). THROW EXCEPTION: error::wallet_internal_error
+2019-06-17 22:53:04.574	[RPC0]	ERROR	wallet.wallet2	src/wallet/wallet2.cpp:3747	boost::filesystem::exists(m_wallet_file, ignored_ec). THROW EXCEPTION: error::file_exists
+2019-06-17 22:53:04.807	[RPC0]	ERROR	wallet.wallet2	src/wallet/wallet2.cpp:4585	!is_keys_file_locked(). THROW EXCEPTION: error::wallet_internal_error
+2019-06-17 22:53:05.160	[RPC0]	ERROR	wallet.wallet2	src/wallet/wallet2.cpp:3747	boost::filesystem::exists(m_wallet_file, ignored_ec). THROW EXCEPTION: error::file_exists
+2019-06-17 22:53:05.429	[RPC0]	ERROR	wallet.wallet2	src/wallet/wallet2.cpp:4585	!is_keys_file_locked(). THROW EXCEPTION: error::wallet_internal_error
+2019-06-17 22:53:05.719	[RPC0]	ERROR	wallet.wallet2	src/wallet/wallet2.cpp:3747	boost::filesystem::exists(m_wallet_file, ignored_ec). THROW EXCEPTION: error::file_exists
+2019-06-17 22:53:05.918	[RPC0]	ERROR	wallet.wallet2	src/wallet/wallet2.cpp:4585	!is_keys_file_locked(). THROW EXCEPTION: error::wallet_internal_error
+2019-06-17 22:53:06.153	[RPC0]	ERROR	wallet.wallet2	src/wallet/wallet2.cpp:3747	boost::filesystem::exists(m_wallet_file, ignored_ec). THROW EXCEPTION: error::file_exists
+2019-06-17 22:53:06.395	[RPC0]	ERROR	wallet.wallet2	src/wallet/wallet2.cpp:4585	!is_keys_file_locked(). THROW EXCEPTION: error::wallet_internal_error
+2019-06-17 22:53:06.963	[RPC0]	ERROR	wallet.wallet2	src/wallet/wallet2.cpp:3747	boost::filesystem::exists(m_wallet_file, ignored_ec). THROW EXCEPTION: error::file_exists
+2019-06-17 22:53:07.234	[RPC0]	ERROR	wallet.wallet2	src/wallet/wallet2.cpp:4585	!is_keys_file_locked(). THROW EXCEPTION: error::wallet_internal_error
+2019-06-17 22:53:08.129	[RPC0]	ERROR	wallet.wallet2	src/wallet/wallet2.cpp:3747	boost::filesystem::exists(m_wallet_file, ignored_ec). THROW EXCEPTION: error::file_exists
+2019-06-17 22:53:08.514	[RPC0]	ERROR	wallet.wallet2	src/wallet/wallet2.cpp:4585	!is_keys_file_locked(). THROW EXCEPTION: error::wallet_internal_error
+2019-06-17 22:53:09.018	[RPC0]	ERROR	wallet.wallet2	src/wallet/wallet2.cpp:3747	boost::filesystem::exists(m_wallet_file, ignored_ec). THROW EXCEPTION: error::file_exists
+2019-06-17 22:53:09.332	[RPC0]	ERROR	wallet.wallet2	src/wallet/wallet2.cpp:4585	!is_keys_file_locked(). THROW EXCEPTION: error::wallet_internal_error
+2019-06-17 22:53:09.875	[RPC0]	ERROR	wallet.wallet2	src/wallet/wallet2.cpp:3747	boost::filesystem::exists(m_wallet_file, ignored_ec). THROW EXCEPTION: error::file_exists
+2019-06-17 22:53:10.242	[RPC0]	ERROR	wallet.wallet2	src/wallet/wallet2.cpp:4585	!is_keys_file_locked(). THROW EXCEPTION: error::wallet_internal_error
+2019-06-17 22:53:10.568	[RPC0]	ERROR	wallet.wallet2	src/wallet/wallet2.cpp:3747	boost::filesystem::exists(m_wallet_file, ignored_ec). THROW EXCEPTION: error::file_exists
+2019-06-17 22:53:10.782	[RPC0]	ERROR	wallet.wallet2	src/wallet/wallet2.cpp:4585	!is_keys_file_locked(). THROW EXCEPTION: error::wallet_internal_error
+2019-06-17 22:53:11.073	[RPC0]	ERROR	wallet.wallet2	src/wallet/wallet2.cpp:3747	boost::filesystem::exists(m_wallet_file, ignored_ec). THROW EXCEPTION: error::file_exists
+2019-06-17 22:53:11.399	[RPC0]	ERROR	wallet.wallet2	src/wallet/wallet2.cpp:4585	!is_keys_file_locked(). THROW EXCEPTION: error::wallet_internal_error
+2019-06-17 22:53:11.696	[RPC0]	ERROR	wallet.wallet2	src/wallet/wallet2.cpp:3747	boost::filesystem::exists(m_wallet_file, ignored_ec). THROW EXCEPTION: error::file_exists
+2019-06-17 22:53:11.873	[RPC0]	ERROR	wallet.wallet2	src/wallet/wallet2.cpp:4585	!is_keys_file_locked(). THROW EXCEPTION: error::wallet_internal_error
+2019-06-17 22:53:12.076	[RPC0]	ERROR	wallet.wallet2	src/wallet/wallet2.cpp:3747	boost::filesystem::exists(m_wallet_file, ignored_ec). THROW EXCEPTION: error::file_exists
+2019-06-17 22:53:12.226	[RPC0]	ERROR	wallet.wallet2	src/wallet/wallet2.cpp:4585	!is_keys_file_locked(). THROW EXCEPTION: error::wallet_internal_error
+2019-06-17 22:53:12.440	[RPC0]	ERROR	wallet.wallet2	src/wallet/wallet2.cpp:3747	boost::filesystem::exists(m_wallet_file, ignored_ec). THROW EXCEPTION: error::file_exists
+2019-06-17 22:53:12.658	[RPC0]	ERROR	wallet.wallet2	src/wallet/wallet2.cpp:4585	!is_keys_file_locked(). THROW EXCEPTION: error::wallet_internal_error
+2019-06-17 22:53:12.903	[RPC0]	ERROR	wallet.wallet2	src/wallet/wallet2.cpp:3747	boost::filesystem::exists(m_wallet_file, ignored_ec). THROW EXCEPTION: error::file_exists
+2019-06-17 22:53:13.131	[RPC0]	ERROR	wallet.wallet2	src/wallet/wallet2.cpp:4585	!is_keys_file_locked(). THROW EXCEPTION: error::wallet_internal_error
+2019-06-17 22:53:13.330	[RPC0]	ERROR	wallet.wallet2	src/wallet/wallet2.cpp:3747	boost::filesystem::exists(m_wallet_file, ignored_ec). THROW EXCEPTION: error::file_exists
+2019-06-17 22:53:13.473	[RPC0]	ERROR	wallet.wallet2	src/wallet/wallet2.cpp:4585	!is_keys_file_locked(). THROW EXCEPTION: error::wallet_internal_error
+2019-06-17 22:53:13.672	[RPC0]	ERROR	wallet.wallet2	src/wallet/wallet2.cpp:3747	boost::filesystem::exists(m_wallet_file, ignored_ec). THROW EXCEPTION: error::file_exists
+2019-06-17 22:53:13.841	[RPC0]	ERROR	wallet.wallet2	src/wallet/wallet2.cpp:4585	!is_keys_file_locked(). THROW EXCEPTION: error::wallet_internal_error
+2019-06-17 22:53:14.089	[RPC0]	ERROR	wallet.wallet2	src/wallet/wallet2.cpp:3747	boost::filesystem::exists(m_wallet_file, ignored_ec). THROW EXCEPTION: error::file_exists
+2019-06-17 22:53:14.254	[RPC0]	ERROR	wallet.wallet2	src/wallet/wallet2.cpp:4585	!is_keys_file_locked(). THROW EXCEPTION: error::wallet_internal_error
+2019-06-17 22:53:14.477	[RPC0]	ERROR	wallet.wallet2	src/wallet/wallet2.cpp:3747	boost::filesystem::exists(m_wallet_file, ignored_ec). THROW EXCEPTION: error::file_exists
+2019-06-17 22:53:14.632	[RPC0]	ERROR	wallet.wallet2	src/wallet/wallet2.cpp:4585	!is_keys_file_locked(). THROW EXCEPTION: error::wallet_internal_error
+2019-06-17 22:53:14.860	[RPC0]	ERROR	wallet.wallet2	src/wallet/wallet2.cpp:3747	boost::filesystem::exists(m_wallet_file, ignored_ec). THROW EXCEPTION: error::file_exists
+2019-06-17 22:53:15.016	[RPC0]	ERROR	wallet.wallet2	src/wallet/wallet2.cpp:4585	!is_keys_file_locked(). THROW EXCEPTION: error::wallet_internal_error
+2019-06-17 22:53:15.250	[RPC0]	ERROR	wallet.wallet2	src/wallet/wallet2.cpp:3747	boost::filesystem::exists(m_wallet_file, ignored_ec). THROW EXCEPTION: error::file_exists
+2019-06-17 22:53:15.464	[RPC0]	ERROR	wallet.wallet2	src/wallet/wallet2.cpp:4585	!is_keys_file_locked(). THROW EXCEPTION: error::wallet_internal_error
+2019-06-17 22:53:15.832	[RPC0]	ERROR	wallet.wallet2	src/wallet/wallet2.cpp:3747	boost::filesystem::exists(m_wallet_file, ignored_ec). THROW EXCEPTION: error::file_exists
+2019-06-17 22:53:16.338	[RPC0]	ERROR	wallet.wallet2	src/wallet/wallet2.cpp:4585	!is_keys_file_locked(). THROW EXCEPTION: error::wallet_internal_error
+2019-06-17 22:53:16.645	[RPC0]	ERROR	wallet.wallet2	src/wallet/wallet2.cpp:3747	boost::filesystem::exists(m_wallet_file, ignored_ec). THROW EXCEPTION: error::file_exists
+2019-06-17 22:53:16.859	[RPC0]	ERROR	wallet.wallet2	src/wallet/wallet2.cpp:4585	!is_keys_file_locked(). THROW EXCEPTION: error::wallet_internal_error
+2019-06-17 22:53:17.321	[RPC0]	ERROR	wallet.wallet2	src/wallet/wallet2.cpp:3747	boost::filesystem::exists(m_wallet_file, ignored_ec). THROW EXCEPTION: error::file_exists
+2019-06-17 22:53:17.558	[RPC0]	ERROR	wallet.wallet2	src/wallet/wallet2.cpp:4585	!is_keys_file_locked(). THROW EXCEPTION: error::wallet_internal_error
+2019-06-17 22:53:17.762	[RPC0]	ERROR	wallet.wallet2	src/wallet/wallet2.cpp:3747	boost::filesystem::exists(m_wallet_file, ignored_ec). THROW EXCEPTION: error::file_exists
+2019-06-17 22:53:17.900	[RPC0]	ERROR	wallet.wallet2	src/wallet/wallet2.cpp:4585	!is_keys_file_locked(). THROW EXCEPTION: error::wallet_internal_error
+2019-06-17 22:53:18.121	[RPC0]	ERROR	wallet.wallet2	src/wallet/wallet2.cpp:3747	boost::filesystem::exists(m_wallet_file, ignored_ec). THROW EXCEPTION: error::file_exists
+2019-06-17 22:53:18.285	[RPC0]	ERROR	wallet.wallet2	src/wallet/wallet2.cpp:4585	!is_keys_file_locked(). THROW EXCEPTION: error::wallet_internal_error
+2019-06-17 22:53:18.482	[RPC0]	ERROR	wallet.wallet2	src/wallet/wallet2.cpp:3747	boost::filesystem::exists(m_wallet_file, ignored_ec). THROW EXCEPTION: error::file_exists
+2019-06-17 22:53:18.655	[RPC0]	ERROR	wallet.wallet2	src/wallet/wallet2.cpp:4585	!is_keys_file_locked(). THROW EXCEPTION: error::wallet_internal_error
+2019-06-17 22:53:18.851	[RPC0]	ERROR	wallet.wallet2	src/wallet/wallet2.cpp:3747	boost::filesystem::exists(m_wallet_file, ignored_ec). THROW EXCEPTION: error::file_exists
+2019-06-17 22:53:18.978	[RPC0]	ERROR	wallet.wallet2	src/wallet/wallet2.cpp:4585	!is_keys_file_locked(). THROW EXCEPTION: error::wallet_internal_error
+2019-06-17 22:53:19.312	[RPC0]	ERROR	wallet.wallet2	src/wallet/wallet2.cpp:3747	boost::filesystem::exists(m_wallet_file, ignored_ec). THROW EXCEPTION: error::file_exists
+2019-06-17 22:53:19.542	[RPC0]	ERROR	wallet.wallet2	src/wallet/wallet2.cpp:4585	!is_keys_file_locked(). THROW EXCEPTION: error::wallet_internal_error
+2019-06-17 22:53:19.881	[RPC0]	ERROR	wallet.wallet2	src/wallet/wallet2.cpp:3747	boost::filesystem::exists(m_wallet_file, ignored_ec). THROW EXCEPTION: error::file_exists
+2019-06-17 22:53:20.100	[RPC0]	ERROR	wallet.wallet2	src/wallet/wallet2.cpp:4585	!is_keys_file_locked(). THROW EXCEPTION: error::wallet_internal_error
+2019-06-17 22:53:20.347	[RPC0]	ERROR	wallet.wallet2	src/wallet/wallet2.cpp:3747	boost::filesystem::exists(m_wallet_file, ignored_ec). THROW EXCEPTION: error::file_exists
+2019-06-17 22:53:20.512	[RPC0]	ERROR	wallet.wallet2	src/wallet/wallet2.cpp:4585	!is_keys_file_locked(). THROW EXCEPTION: error::wallet_internal_error
+2019-06-17 22:53:20.795	[RPC0]	ERROR	wallet.wallet2	src/wallet/wallet2.cpp:3747	boost::filesystem::exists(m_wallet_file, ignored_ec). THROW EXCEPTION: error::file_exists
+2019-06-17 22:53:21.032	[RPC0]	ERROR	wallet.wallet2	src/wallet/wallet2.cpp:4585	!is_keys_file_locked(). THROW EXCEPTION: error::wallet_internal_error
+2019-06-17 22:53:21.273	[RPC0]	ERROR	wallet.wallet2	src/wallet/wallet2.cpp:3747	boost::filesystem::exists(m_wallet_file, ignored_ec). THROW EXCEPTION: error::file_exists
+2019-06-17 22:53:21.464	[RPC0]	ERROR	wallet.wallet2	src/wallet/wallet2.cpp:4585	!is_keys_file_locked(). THROW EXCEPTION: error::wallet_internal_error
+2019-06-17 22:53:21.734	[RPC0]	ERROR	wallet.wallet2	src/wallet/wallet2.cpp:3747	boost::filesystem::exists(m_wallet_file, ignored_ec). THROW EXCEPTION: error::file_exists
+2019-06-17 22:53:28.528	[RPC0]	ERROR	wallet.wallet2	src/wallet/wallet2.cpp:4585	!is_keys_file_locked(). THROW EXCEPTION: error::wallet_internal_error
+2019-06-17 22:53:28.834	[RPC0]	ERROR	wallet.wallet2	src/wallet/wallet2.cpp:3747	boost::filesystem::exists(m_wallet_file, ignored_ec). THROW EXCEPTION: error::file_exists
+2019-06-17 22:53:29.153	[RPC0]	ERROR	wallet.wallet2	src/wallet/wallet2.cpp:4585	!is_keys_file_locked(). THROW EXCEPTION: error::wallet_internal_error
+2019-06-17 22:53:29.458	[RPC0]	ERROR	wallet.wallet2	src/wallet/wallet2.cpp:3747	boost::filesystem::exists(m_wallet_file, ignored_ec). THROW EXCEPTION: error::file_exists
+2019-06-17 22:53:29.708	[RPC0]	ERROR	wallet.wallet2	src/wallet/wallet2.cpp:4585	!is_keys_file_locked(). THROW EXCEPTION: error::wallet_internal_error
+2019-06-17 22:53:30.050	[RPC0]	ERROR	wallet.wallet2	src/wallet/wallet2.cpp:3747	boost::filesystem::exists(m_wallet_file, ignored_ec). THROW EXCEPTION: error::file_exists
+2019-06-17 22:53:30.216	[RPC0]	ERROR	wallet.wallet2	src/wallet/wallet2.cpp:4585	!is_keys_file_locked(). THROW EXCEPTION: error::wallet_internal_error
+2019-06-17 22:53:30.441	[RPC0]	ERROR	wallet.wallet2	src/wallet/wallet2.cpp:3747	boost::filesystem::exists(m_wallet_file, ignored_ec). THROW EXCEPTION: error::file_exists
+2019-06-17 22:53:30.692	[RPC0]	ERROR	wallet.wallet2	src/wallet/wallet2.cpp:4585	!is_keys_file_locked(). THROW EXCEPTION: error::wallet_internal_error
+2019-06-17 22:53:30.905	[RPC0]	ERROR	wallet.wallet2	src/wallet/wallet2.cpp:3747	boost::filesystem::exists(m_wallet_file, ignored_ec). THROW EXCEPTION: error::file_exists
+2019-06-17 22:53:31.137	[RPC0]	ERROR	wallet.wallet2	src/wallet/wallet2.cpp:4585	!is_keys_file_locked(). THROW EXCEPTION: error::wallet_internal_error
+2019-06-17 22:53:31.428	[RPC0]	ERROR	wallet.wallet2	src/wallet/wallet2.cpp:3747	boost::filesystem::exists(m_wallet_file, ignored_ec). THROW EXCEPTION: error::file_exists
+2019-06-17 22:53:31.663	[RPC0]	ERROR	wallet.wallet2	src/wallet/wallet2.cpp:4585	!is_keys_file_locked(). THROW EXCEPTION: error::wallet_internal_error
+2019-06-17 22:53:31.958	[RPC0]	ERROR	wallet.wallet2	src/wallet/wallet2.cpp:3747	boost::filesystem::exists(m_wallet_file, ignored_ec). THROW EXCEPTION: error::file_exists
+2019-06-17 22:53:32.238	[RPC0]	ERROR	wallet.wallet2	src/wallet/wallet2.cpp:4585	!is_keys_file_locked(). THROW EXCEPTION: error::wallet_internal_error
+2019-06-17 22:53:32.460	[RPC0]	ERROR	wallet.wallet2	src/wallet/wallet2.cpp:3747	boost::filesystem::exists(m_wallet_file, ignored_ec). THROW EXCEPTION: error::file_exists
+2019-06-17 22:53:32.604	[RPC0]	ERROR	wallet.wallet2	src/wallet/wallet2.cpp:4585	!is_keys_file_locked(). THROW EXCEPTION: error::wallet_internal_error
+2019-06-17 22:53:32.847	[RPC0]	ERROR	wallet.wallet2	src/wallet/wallet2.cpp:3747	boost::filesystem::exists(m_wallet_file, ignored_ec). THROW EXCEPTION: error::file_exists
+2019-06-17 22:53:32.980	[RPC0]	ERROR	wallet.wallet2	src/wallet/wallet2.cpp:4585	!is_keys_file_locked(). THROW EXCEPTION: error::wallet_internal_error
+2019-06-17 22:53:33.178	[RPC0]	ERROR	wallet.wallet2	src/wallet/wallet2.cpp:3747	boost::filesystem::exists(m_wallet_file, ignored_ec). THROW EXCEPTION: error::file_exists
+2019-06-17 22:53:33.301	[RPC0]	ERROR	wallet.wallet2	src/wallet/wallet2.cpp:4585	!is_keys_file_locked(). THROW EXCEPTION: error::wallet_internal_error
+2019-06-17 22:53:33.454	[RPC0]	ERROR	wallet.wallet2	src/wallet/wallet2.cpp:3747	boost::filesystem::exists(m_wallet_file, ignored_ec). THROW EXCEPTION: error::file_exists
+2019-06-17 22:53:33.582	[RPC0]	ERROR	wallet.wallet2	src/wallet/wallet2.cpp:4585	!is_keys_file_locked(). THROW EXCEPTION: error::wallet_internal_error
+2019-06-17 22:53:33.738	[RPC0]	ERROR	wallet.wallet2	src/wallet/wallet2.cpp:3747	boost::filesystem::exists(m_wallet_file, ignored_ec). THROW EXCEPTION: error::file_exists
+2019-06-17 22:53:33.847	[RPC0]	ERROR	wallet.wallet2	src/wallet/wallet2.cpp:4585	!is_keys_file_locked(). THROW EXCEPTION: error::wallet_internal_error
+2019-06-17 22:53:34.019	[RPC0]	ERROR	wallet.wallet2	src/wallet/wallet2.cpp:3747	boost::filesystem::exists(m_wallet_file, ignored_ec). THROW EXCEPTION: error::file_exists
+2019-06-17 22:53:34.203	[RPC0]	ERROR	wallet.wallet2	src/wallet/wallet2.cpp:4585	!is_keys_file_locked(). THROW EXCEPTION: error::wallet_internal_error
+2019-06-17 22:53:34.391	[RPC0]	ERROR	wallet.wallet2	src/wallet/wallet2.cpp:3747	boost::filesystem::exists(m_wallet_file, ignored_ec). THROW EXCEPTION: error::file_exists
+2019-06-17 22:53:34.533	[RPC0]	ERROR	wallet.wallet2	src/wallet/wallet2.cpp:4585	!is_keys_file_locked(). THROW EXCEPTION: error::wallet_internal_error
+2019-06-17 22:53:34.762	[RPC0]	ERROR	wallet.wallet2	src/wallet/wallet2.cpp:3747	boost::filesystem::exists(m_wallet_file, ignored_ec). THROW EXCEPTION: error::file_exists
+2019-06-17 22:53:34.882	[RPC0]	ERROR	wallet.wallet2	src/wallet/wallet2.cpp:4585	!is_keys_file_locked(). THROW EXCEPTION: error::wallet_internal_error
+2019-06-17 22:53:35.062	[RPC0]	ERROR	wallet.wallet2	src/wallet/wallet2.cpp:3747	boost::filesystem::exists(m_wallet_file, ignored_ec). THROW EXCEPTION: error::file_exists
+2019-06-17 22:53:35.213	[RPC0]	ERROR	wallet.wallet2	src/wallet/wallet2.cpp:4585	!is_keys_file_locked(). THROW EXCEPTION: error::wallet_internal_error
+2019-06-17 22:53:35.427	[RPC0]	ERROR	wallet.wallet2	src/wallet/wallet2.cpp:3747	boost::filesystem::exists(m_wallet_file, ignored_ec). THROW EXCEPTION: error::file_exists
+2019-06-17 22:53:35.553	[RPC0]	ERROR	wallet.wallet2	src/wallet/wallet2.cpp:4585	!is_keys_file_locked(). THROW EXCEPTION: error::wallet_internal_error
+2019-06-17 22:53:35.711	[RPC0]	ERROR	wallet.wallet2	src/wallet/wallet2.cpp:3747	boost::filesystem::exists(m_wallet_file, ignored_ec). THROW EXCEPTION: error::file_exists
+2019-06-17 22:53:35.865	[RPC0]	ERROR	wallet.wallet2	src/wallet/wallet2.cpp:4585	!is_keys_file_locked(). THROW EXCEPTION: error::wallet_internal_error
+2019-06-17 22:53:36.042	[RPC0]	ERROR	wallet.wallet2	src/wallet/wallet2.cpp:3747	boost::filesystem::exists(m_wallet_file, ignored_ec). THROW EXCEPTION: error::file_exists
+2019-06-17 22:53:36.150	[RPC0]	ERROR	wallet.wallet2	src/wallet/wallet2.cpp:4585	!is_keys_file_locked(). THROW EXCEPTION: error::wallet_internal_error
+2019-06-17 22:53:36.325	[RPC0]	ERROR	wallet.wallet2	src/wallet/wallet2.cpp:3747	boost::filesystem::exists(m_wallet_file, ignored_ec). THROW EXCEPTION: error::file_exists
+2019-06-17 22:53:36.456	[RPC0]	ERROR	wallet.wallet2	src/wallet/wallet2.cpp:4585	!is_keys_file_locked(). THROW EXCEPTION: error::wallet_internal_error
+2019-06-17 22:53:36.598	[RPC0]	ERROR	wallet.wallet2	src/wallet/wallet2.cpp:3747	boost::filesystem::exists(m_wallet_file, ignored_ec). THROW EXCEPTION: error::file_exists
+2019-06-17 22:53:36.719	[RPC0]	ERROR	wallet.wallet2	src/wallet/wallet2.cpp:4585	!is_keys_file_locked(). THROW EXCEPTION: error::wallet_internal_error
+2019-06-17 22:53:36.940	[RPC0]	ERROR	wallet.wallet2	src/wallet/wallet2.cpp:3747	boost::filesystem::exists(m_wallet_file, ignored_ec). THROW EXCEPTION: error::file_exists
+2019-06-17 22:53:37.133	[RPC0]	ERROR	wallet.wallet2	src/wallet/wallet2.cpp:4585	!is_keys_file_locked(). THROW EXCEPTION: error::wallet_internal_error
+2019-06-17 22:53:37.379	[RPC0]	ERROR	wallet.wallet2	src/wallet/wallet2.cpp:3747	boost::filesystem::exists(m_wallet_file, ignored_ec). THROW EXCEPTION: error::file_exists
+2019-06-17 22:53:37.517	[RPC0]	ERROR	wallet.wallet2	src/wallet/wallet2.cpp:4585	!is_keys_file_locked(). THROW EXCEPTION: error::wallet_internal_error
+2019-06-17 22:53:37.760	[RPC0]	ERROR	wallet.wallet2	src/wallet/wallet2.cpp:3747	boost::filesystem::exists(m_wallet_file, ignored_ec). THROW EXCEPTION: error::file_exists
+2019-06-17 22:53:37.903	[RPC0]	ERROR	wallet.wallet2	src/wallet/wallet2.cpp:4585	!is_keys_file_locked(). THROW EXCEPTION: error::wallet_internal_error
+2019-06-17 22:53:38.439	[RPC0]	ERROR	wallet.wallet2	src/wallet/wallet2.cpp:3747	boost::filesystem::exists(m_wallet_file, ignored_ec). THROW EXCEPTION: error::file_exists
+2019-06-17 22:53:38.749	[RPC0]	ERROR	wallet.wallet2	src/wallet/wallet2.cpp:4585	!is_keys_file_locked(). THROW EXCEPTION: error::wallet_internal_error
+2019-06-17 22:53:38.972	[RPC0]	ERROR	wallet.wallet2	src/wallet/wallet2.cpp:3747	boost::filesystem::exists(m_wallet_file, ignored_ec). THROW EXCEPTION: error::file_exists
+2019-06-17 22:53:39.111	[RPC0]	ERROR	wallet.wallet2	src/wallet/wallet2.cpp:4585	!is_keys_file_locked(). THROW EXCEPTION: error::wallet_internal_error
+2019-06-17 22:53:39.322	[RPC0]	ERROR	wallet.wallet2	src/wallet/wallet2.cpp:3747	boost::filesystem::exists(m_wallet_file, ignored_ec). THROW EXCEPTION: error::file_exists
+2019-06-17 22:53:39.558	[RPC0]	ERROR	wallet.wallet2	src/wallet/wallet2.cpp:4585	!is_keys_file_locked(). THROW EXCEPTION: error::wallet_internal_error
+2019-06-17 22:53:39.782	[RPC0]	ERROR	wallet.wallet2	src/wallet/wallet2.cpp:3747	boost::filesystem::exists(m_wallet_file, ignored_ec). THROW EXCEPTION: error::file_exists
+2019-06-17 22:53:39.924	[RPC0]	ERROR	wallet.wallet2	src/wallet/wallet2.cpp:4585	!is_keys_file_locked(). THROW EXCEPTION: error::wallet_internal_error
+2019-06-17 22:53:40.146	[RPC0]	ERROR	wallet.wallet2	src/wallet/wallet2.cpp:3747	boost::filesystem::exists(m_wallet_file, ignored_ec). THROW EXCEPTION: error::file_exists
+2019-06-17 22:53:40.313	[RPC0]	ERROR	wallet.wallet2	src/wallet/wallet2.cpp:4585	!is_keys_file_locked(). THROW EXCEPTION: error::wallet_internal_error
+2019-06-17 22:53:40.787	[RPC0]	ERROR	wallet.wallet2	src/wallet/wallet2.cpp:3747	boost::filesystem::exists(m_wallet_file, ignored_ec). THROW EXCEPTION: error::file_exists
+2019-06-17 22:53:41.110	[RPC0]	ERROR	wallet.wallet2	src/wallet/wallet2.cpp:4585	!is_keys_file_locked(). THROW EXCEPTION: error::wallet_internal_error
+2019-06-17 22:53:41.472	[RPC0]	ERROR	wallet.wallet2	src/wallet/wallet2.cpp:3747	boost::filesystem::exists(m_wallet_file, ignored_ec). THROW EXCEPTION: error::file_exists
+2019-06-17 22:53:41.683	[RPC0]	ERROR	wallet.wallet2	src/wallet/wallet2.cpp:4585	!is_keys_file_locked(). THROW EXCEPTION: error::wallet_internal_error
+2019-06-17 22:53:41.992	[RPC0]	ERROR	wallet.wallet2	src/wallet/wallet2.cpp:3747	boost::filesystem::exists(m_wallet_file, ignored_ec). THROW EXCEPTION: error::file_exists
+2019-06-17 22:53:42.255	[RPC0]	ERROR	wallet.wallet2	src/wallet/wallet2.cpp:4585	!is_keys_file_locked(). THROW EXCEPTION: error::wallet_internal_error
+2019-06-17 22:53:42.454	[RPC0]	ERROR	wallet.wallet2	src/wallet/wallet2.cpp:3747	boost::filesystem::exists(m_wallet_file, ignored_ec). THROW EXCEPTION: error::file_exists
+2019-06-17 22:53:42.620	[RPC0]	ERROR	wallet.wallet2	src/wallet/wallet2.cpp:4585	!is_keys_file_locked(). THROW EXCEPTION: error::wallet_internal_error
+2019-06-17 22:53:42.912	[RPC0]	ERROR	wallet.wallet2	src/wallet/wallet2.cpp:3747	boost::filesystem::exists(m_wallet_file, ignored_ec). THROW EXCEPTION: error::file_exists
+2019-06-17 22:53:43.257	[RPC0]	ERROR	wallet.wallet2	src/wallet/wallet2.cpp:4585	!is_keys_file_locked(). THROW EXCEPTION: error::wallet_internal_error
+2019-06-17 22:53:43.771	[RPC0]	ERROR	wallet.wallet2	src/wallet/wallet2.cpp:3747	boost::filesystem::exists(m_wallet_file, ignored_ec). THROW EXCEPTION: error::file_exists
+2019-06-17 22:53:44.214	[RPC0]	ERROR	wallet.wallet2	src/wallet/wallet2.cpp:4585	!is_keys_file_locked(). THROW EXCEPTION: error::wallet_internal_error
+2019-06-17 22:53:44.699	[RPC0]	ERROR	wallet.wallet2	src/wallet/wallet2.cpp:3747	boost::filesystem::exists(m_wallet_file, ignored_ec). THROW EXCEPTION: error::file_exists
+2019-06-17 22:53:45.044	[RPC0]	ERROR	wallet.wallet2	src/wallet/wallet2.cpp:4585	!is_keys_file_locked(). THROW EXCEPTION: error::wallet_internal_error
+2019-06-17 22:53:45.472	[RPC0]	ERROR	wallet.wallet2	src/wallet/wallet2.cpp:3747	boost::filesystem::exists(m_wallet_file, ignored_ec). THROW EXCEPTION: error::file_exists
+2019-06-17 22:53:45.647	[RPC0]	ERROR	wallet.wallet2	src/wallet/wallet2.cpp:4585	!is_keys_file_locked(). THROW EXCEPTION: error::wallet_internal_error
+2019-06-17 22:53:45.970	[RPC0]	ERROR	wallet.wallet2	src/wallet/wallet2.cpp:3747	boost::filesystem::exists(m_wallet_file, ignored_ec). THROW EXCEPTION: error::file_exists
+2019-06-17 22:53:46.410	[RPC0]	ERROR	wallet.wallet2	src/wallet/wallet2.cpp:4585	!is_keys_file_locked(). THROW EXCEPTION: error::wallet_internal_error
+2019-06-17 22:53:46.914	[RPC0]	ERROR	wallet.wallet2	src/wallet/wallet2.cpp:3747	boost::filesystem::exists(m_wallet_file, ignored_ec). THROW EXCEPTION: error::file_exists
+2019-06-17 22:53:47.269	[RPC0]	ERROR	wallet.wallet2	src/wallet/wallet2.cpp:4585	!is_keys_file_locked(). THROW EXCEPTION: error::wallet_internal_error
+2019-06-17 22:53:47.990	[RPC0]	ERROR	wallet.wallet2	src/wallet/wallet2.cpp:3747	boost::filesystem::exists(m_wallet_file, ignored_ec). THROW EXCEPTION: error::file_exists
+2019-06-17 22:53:48.343	[RPC0]	ERROR	wallet.wallet2	src/wallet/wallet2.cpp:4585	!is_keys_file_locked(). THROW EXCEPTION: error::wallet_internal_error
+2019-06-17 22:53:48.632	[RPC0]	ERROR	wallet.wallet2	src/wallet/wallet2.cpp:3747	boost::filesystem::exists(m_wallet_file, ignored_ec). THROW EXCEPTION: error::file_exists
+2019-06-17 22:53:53.905	[RPC0]	ERROR	wallet.wallet2	src/wallet/wallet2.cpp:4585	!is_keys_file_locked(). THROW EXCEPTION: error::wallet_internal_error
+2019-06-17 22:53:54.324	[RPC0]	ERROR	wallet.wallet2	src/wallet/wallet2.cpp:3747	boost::filesystem::exists(m_wallet_file, ignored_ec). THROW EXCEPTION: error::file_exists
+2019-06-17 22:53:54.580	[RPC0]	ERROR	wallet.wallet2	src/wallet/wallet2.cpp:4585	!is_keys_file_locked(). THROW EXCEPTION: error::wallet_internal_error
+2019-06-17 22:53:54.834	[RPC0]	ERROR	wallet.wallet2	src/wallet/wallet2.cpp:3747	boost::filesystem::exists(m_wallet_file, ignored_ec). THROW EXCEPTION: error::file_exists
+2019-06-17 22:53:55.043	[RPC0]	ERROR	wallet.wallet2	src/wallet/wallet2.cpp:4585	!is_keys_file_locked(). THROW EXCEPTION: error::wallet_internal_error
+2019-06-17 22:53:55.403	[RPC0]	ERROR	wallet.wallet2	src/wallet/wallet2.cpp:3747	boost::filesystem::exists(m_wallet_file, ignored_ec). THROW EXCEPTION: error::file_exists
+2019-06-17 22:53:55.664	[RPC0]	ERROR	wallet.wallet2	src/wallet/wallet2.cpp:4585	!is_keys_file_locked(). THROW EXCEPTION: error::wallet_internal_error
+2019-06-17 22:53:55.915	[RPC0]	ERROR	wallet.wallet2	src/wallet/wallet2.cpp:3747	boost::filesystem::exists(m_wallet_file, ignored_ec). THROW EXCEPTION: error::file_exists
+2019-06-17 22:53:56.253	[RPC0]	ERROR	wallet.wallet2	src/wallet/wallet2.cpp:4585	!is_keys_file_locked(). THROW EXCEPTION: error::wallet_internal_error
+2019-06-17 22:53:56.570	[RPC0]	ERROR	wallet.wallet2	src/wallet/wallet2.cpp:3747	boost::filesystem::exists(m_wallet_file, ignored_ec). THROW EXCEPTION: error::file_exists
+2019-06-17 22:53:56.808	[RPC0]	ERROR	wallet.wallet2	src/wallet/wallet2.cpp:4585	!is_keys_file_locked(). THROW EXCEPTION: error::wallet_internal_error
+2019-06-17 22:53:57.066	[RPC0]	ERROR	wallet.wallet2	src/wallet/wallet2.cpp:3747	boost::filesystem::exists(m_wallet_file, ignored_ec). THROW EXCEPTION: error::file_exists
+2019-06-17 22:53:57.251	[RPC0]	ERROR	wallet.wallet2	src/wallet/wallet2.cpp:4585	!is_keys_file_locked(). THROW EXCEPTION: error::wallet_internal_error
+2019-06-17 22:53:57.506	[RPC0]	ERROR	wallet.wallet2	src/wallet/wallet2.cpp:3747	boost::filesystem::exists(m_wallet_file, ignored_ec). THROW EXCEPTION: error::file_exists
+2019-06-17 22:53:57.709	[RPC0]	ERROR	wallet.wallet2	src/wallet/wallet2.cpp:4585	!is_keys_file_locked(). THROW EXCEPTION: error::wallet_internal_error
+2019-06-17 22:53:57.976	[RPC0]	ERROR	wallet.wallet2	src/wallet/wallet2.cpp:3747	boost::filesystem::exists(m_wallet_file, ignored_ec). THROW EXCEPTION: error::file_exists
+2019-06-17 22:53:58.194	[RPC0]	ERROR	wallet.wallet2	src/wallet/wallet2.cpp:4585	!is_keys_file_locked(). THROW EXCEPTION: error::wallet_internal_error
+2019-06-17 22:53:58.457	[RPC0]	ERROR	wallet.wallet2	src/wallet/wallet2.cpp:3747	boost::filesystem::exists(m_wallet_file, ignored_ec). THROW EXCEPTION: error::file_exists
+2019-06-17 22:53:58.729	[RPC0]	ERROR	wallet.wallet2	src/wallet/wallet2.cpp:4585	!is_keys_file_locked(). THROW EXCEPTION: error::wallet_internal_error
+2019-06-17 22:53:59.061	[RPC0]	ERROR	wallet.wallet2	src/wallet/wallet2.cpp:3747	boost::filesystem::exists(m_wallet_file, ignored_ec). THROW EXCEPTION: error::file_exists
+2019-06-17 22:53:59.283	[RPC0]	ERROR	wallet.wallet2	src/wallet/wallet2.cpp:4585	!is_keys_file_locked(). THROW EXCEPTION: error::wallet_internal_error
+2019-06-17 22:53:59.501	[RPC0]	ERROR	wallet.wallet2	src/wallet/wallet2.cpp:3747	boost::filesystem::exists(m_wallet_file, ignored_ec). THROW EXCEPTION: error::file_exists
+2019-06-17 22:53:59.641	[RPC0]	ERROR	wallet.wallet2	src/wallet/wallet2.cpp:4585	!is_keys_file_locked(). THROW EXCEPTION: error::wallet_internal_error
+2019-06-17 22:53:59.871	[RPC0]	ERROR	wallet.wallet2	src/wallet/wallet2.cpp:3747	boost::filesystem::exists(m_wallet_file, ignored_ec). THROW EXCEPTION: error::file_exists
+2019-06-17 22:54:00.055	[RPC0]	ERROR	wallet.wallet2	src/wallet/wallet2.cpp:4585	!is_keys_file_locked(). THROW EXCEPTION: error::wallet_internal_error
+2019-06-17 22:54:00.337	[RPC0]	ERROR	wallet.wallet2	src/wallet/wallet2.cpp:3747	boost::filesystem::exists(m_wallet_file, ignored_ec). THROW EXCEPTION: error::file_exists
+2019-06-17 22:54:00.502	[RPC0]	ERROR	wallet.wallet2	src/wallet/wallet2.cpp:4585	!is_keys_file_locked(). THROW EXCEPTION: error::wallet_internal_error
+2019-06-17 22:54:00.802	[RPC0]	ERROR	wallet.wallet2	src/wallet/wallet2.cpp:3747	boost::filesystem::exists(m_wallet_file, ignored_ec). THROW EXCEPTION: error::file_exists
+2019-06-17 22:54:00.989	[RPC0]	ERROR	wallet.wallet2	src/wallet/wallet2.cpp:4585	!is_keys_file_locked(). THROW EXCEPTION: error::wallet_internal_error
+2019-06-17 22:54:01.356	[RPC0]	ERROR	wallet.wallet2	src/wallet/wallet2.cpp:3747	boost::filesystem::exists(m_wallet_file, ignored_ec). THROW EXCEPTION: error::file_exists
+2019-06-17 22:54:01.595	[RPC0]	ERROR	wallet.wallet2	src/wallet/wallet2.cpp:4585	!is_keys_file_locked(). THROW EXCEPTION: error::wallet_internal_error
+2019-06-17 22:54:01.921	[RPC0]	ERROR	wallet.wallet2	src/wallet/wallet2.cpp:3747	boost::filesystem::exists(m_wallet_file, ignored_ec). THROW EXCEPTION: error::file_exists
+2019-06-17 22:54:02.305	[RPC0]	ERROR	wallet.wallet2	src/wallet/wallet2.cpp:4585	!is_keys_file_locked(). THROW EXCEPTION: error::wallet_internal_error
+2019-06-17 22:54:02.608	[RPC0]	ERROR	wallet.wallet2	src/wallet/wallet2.cpp:3747	boost::filesystem::exists(m_wallet_file, ignored_ec). THROW EXCEPTION: error::file_exists
+2019-06-17 22:54:02.772	[RPC0]	ERROR	wallet.wallet2	src/wallet/wallet2.cpp:4585	!is_keys_file_locked(). THROW EXCEPTION: error::wallet_internal_error
+2019-06-17 22:54:03.074	[RPC0]	ERROR	wallet.wallet2	src/wallet/wallet2.cpp:3747	boost::filesystem::exists(m_wallet_file, ignored_ec). THROW EXCEPTION: error::file_exists
+2019-06-17 22:54:03.256	[RPC0]	ERROR	wallet.wallet2	src/wallet/wallet2.cpp:4585	!is_keys_file_locked(). THROW EXCEPTION: error::wallet_internal_error
+2019-06-17 22:54:03.534	[RPC0]	ERROR	wallet.wallet2	src/wallet/wallet2.cpp:3747	boost::filesystem::exists(m_wallet_file, ignored_ec). THROW EXCEPTION: error::file_exists
+2019-06-17 22:54:03.892	[RPC0]	ERROR	wallet.wallet2	src/wallet/wallet2.cpp:4585	!is_keys_file_locked(). THROW EXCEPTION: error::wallet_internal_error
+2019-06-17 22:54:04.193	[RPC0]	ERROR	wallet.wallet2	src/wallet/wallet2.cpp:3747	boost::filesystem::exists(m_wallet_file, ignored_ec). THROW EXCEPTION: error::file_exists
+2019-06-17 22:54:04.431	[RPC0]	ERROR	wallet.wallet2	src/wallet/wallet2.cpp:4585	!is_keys_file_locked(). THROW EXCEPTION: error::wallet_internal_error
+2019-06-17 22:54:04.712	[RPC0]	ERROR	wallet.wallet2	src/wallet/wallet2.cpp:3747	boost::filesystem::exists(m_wallet_file, ignored_ec). THROW EXCEPTION: error::file_exists
+2019-06-17 22:54:04.862	[RPC0]	ERROR	wallet.wallet2	src/wallet/wallet2.cpp:4585	!is_keys_file_locked(). THROW EXCEPTION: error::wallet_internal_error
+2019-06-17 22:54:05.068	[RPC0]	ERROR	wallet.wallet2	src/wallet/wallet2.cpp:3747	boost::filesystem::exists(m_wallet_file, ignored_ec). THROW EXCEPTION: error::file_exists
+2019-06-17 22:54:05.221	[RPC0]	ERROR	wallet.wallet2	src/wallet/wallet2.cpp:4585	!is_keys_file_locked(). THROW EXCEPTION: error::wallet_internal_error
+2019-06-17 22:54:05.428	[RPC0]	ERROR	wallet.wallet2	src/wallet/wallet2.cpp:3747	boost::filesystem::exists(m_wallet_file, ignored_ec). THROW EXCEPTION: error::file_exists
+2019-06-17 22:54:05.604	[RPC0]	ERROR	wallet.wallet2	src/wallet/wallet2.cpp:4585	!is_keys_file_locked(). THROW EXCEPTION: error::wallet_internal_error
+2019-06-17 22:54:05.747	[RPC0]	ERROR	wallet.wallet2	src/wallet/wallet2.cpp:3747	boost::filesystem::exists(m_wallet_file, ignored_ec). THROW EXCEPTION: error::file_exists
+2019-06-17 22:54:05.864	[RPC0]	ERROR	wallet.wallet2	src/wallet/wallet2.cpp:4585	!is_keys_file_locked(). THROW EXCEPTION: error::wallet_internal_error
+2019-06-17 22:54:06.039	[RPC0]	ERROR	wallet.wallet2	src/wallet/wallet2.cpp:3747	boost::filesystem::exists(m_wallet_file, ignored_ec). THROW EXCEPTION: error::file_exists
+2019-06-17 22:54:06.153	[RPC0]	ERROR	wallet.wallet2	src/wallet/wallet2.cpp:4585	!is_keys_file_locked(). THROW EXCEPTION: error::wallet_internal_error
+2019-06-17 22:54:06.272	[RPC0]	ERROR	wallet.wallet2	src/wallet/wallet2.cpp:3747	boost::filesystem::exists(m_wallet_file, ignored_ec). THROW EXCEPTION: error::file_exists
+2019-06-17 22:54:06.398	[RPC0]	ERROR	wallet.wallet2	src/wallet/wallet2.cpp:4585	!is_keys_file_locked(). THROW EXCEPTION: error::wallet_internal_error
+2019-06-17 22:54:06.545	[RPC0]	ERROR	wallet.wallet2	src/wallet/wallet2.cpp:3747	boost::filesystem::exists(m_wallet_file, ignored_ec). THROW EXCEPTION: error::file_exists
+2019-06-17 22:54:06.651	[RPC0]	ERROR	wallet.wallet2	src/wallet/wallet2.cpp:4585	!is_keys_file_locked(). THROW EXCEPTION: error::wallet_internal_error
+2019-06-17 22:54:06.808	[RPC0]	ERROR	wallet.wallet2	src/wallet/wallet2.cpp:3747	boost::filesystem::exists(m_wallet_file, ignored_ec). THROW EXCEPTION: error::file_exists
+2019-06-17 22:54:06.919	[RPC0]	ERROR	wallet.wallet2	src/wallet/wallet2.cpp:4585	!is_keys_file_locked(). THROW EXCEPTION: error::wallet_internal_error
+2019-06-17 22:54:07.116	[RPC0]	ERROR	wallet.wallet2	src/wallet/wallet2.cpp:3747	boost::filesystem::exists(m_wallet_file, ignored_ec). THROW EXCEPTION: error::file_exists
+2019-06-17 22:54:07.249	[RPC0]	ERROR	wallet.wallet2	src/wallet/wallet2.cpp:4585	!is_keys_file_locked(). THROW EXCEPTION: error::wallet_internal_error
+2019-06-17 22:54:07.394	[RPC0]	ERROR	wallet.wallet2	src/wallet/wallet2.cpp:3747	boost::filesystem::exists(m_wallet_file, ignored_ec). THROW EXCEPTION: error::file_exists
+2019-06-17 22:54:07.521	[RPC0]	ERROR	wallet.wallet2	src/wallet/wallet2.cpp:4585	!is_keys_file_locked(). THROW EXCEPTION: error::wallet_internal_error
+2019-06-17 22:54:07.679	[RPC0]	ERROR	wallet.wallet2	src/wallet/wallet2.cpp:3747	boost::filesystem::exists(m_wallet_file, ignored_ec). THROW EXCEPTION: error::file_exists
+2019-06-17 22:54:07.846	[RPC0]	ERROR	wallet.wallet2	src/wallet/wallet2.cpp:4585	!is_keys_file_locked(). THROW EXCEPTION: error::wallet_internal_error
+2019-06-17 22:54:07.974	[RPC0]	ERROR	wallet.wallet2	src/wallet/wallet2.cpp:3747	boost::filesystem::exists(m_wallet_file, ignored_ec). THROW EXCEPTION: error::file_exists
+2019-06-17 22:54:08.078	[RPC0]	ERROR	wallet.wallet2	src/wallet/wallet2.cpp:4585	!is_keys_file_locked(). THROW EXCEPTION: error::wallet_internal_error
+2019-06-17 22:54:08.209	[RPC0]	ERROR	wallet.wallet2	src/wallet/wallet2.cpp:3747	boost::filesystem::exists(m_wallet_file, ignored_ec). THROW EXCEPTION: error::file_exists
+2019-06-17 22:54:08.343	[RPC0]	ERROR	wallet.wallet2	src/wallet/wallet2.cpp:4585	!is_keys_file_locked(). THROW EXCEPTION: error::wallet_internal_error
+2019-06-17 22:54:08.552	[RPC0]	ERROR	wallet.wallet2	src/wallet/wallet2.cpp:3747	boost::filesystem::exists(m_wallet_file, ignored_ec). THROW EXCEPTION: error::file_exists
+2019-06-17 22:54:08.861	[RPC0]	ERROR	wallet.wallet2	src/wallet/wallet2.cpp:4585	!is_keys_file_locked(). THROW EXCEPTION: error::wallet_internal_error
+2019-06-17 22:54:09.415	[RPC0]	ERROR	wallet.wallet2	src/wallet/wallet2.cpp:3747	boost::filesystem::exists(m_wallet_file, ignored_ec). THROW EXCEPTION: error::file_exists
+2019-06-17 22:54:10.447	[RPC0]	ERROR	wallet.wallet2	src/wallet/wallet2.cpp:4585	!is_keys_file_locked(). THROW EXCEPTION: error::wallet_internal_error
+2019-06-17 22:54:10.924	[RPC0]	ERROR	wallet.wallet2	src/wallet/wallet2.cpp:3747	boost::filesystem::exists(m_wallet_file, ignored_ec). THROW EXCEPTION: error::file_exists
+2019-06-17 22:54:11.183	[RPC0]	ERROR	wallet.wallet2	src/wallet/wallet2.cpp:4585	!is_keys_file_locked(). THROW EXCEPTION: error::wallet_internal_error
+2019-06-17 22:54:11.669	[RPC0]	ERROR	wallet.wallet2	src/wallet/wallet2.cpp:3747	boost::filesystem::exists(m_wallet_file, ignored_ec). THROW EXCEPTION: error::file_exists
+2019-06-17 22:56:18.353	[SRV_MAIN]	WARN 	wallet.rpc	src/wallet/wallet_rpc_server.cpp:3465	Stopped wallet RPC server
+2019-06-17 22:56:18.354	[SRV_MAIN]	WARN 	wallet.rpc	src/wallet/wallet_rpc_server.cpp:3468	Saving wallet...
+2019-06-17 22:56:18.414	[SRV_MAIN]	WARN 	wallet.rpc	src/wallet/wallet_rpc_server.cpp:3470	Successfully saved
+2019-06-17 22:56:27.602	  0x7fff9229f380	INFO 	logging	contrib/epee/src/mlog.cpp:277	New log categories: *:WARNING,net:FATAL,net.http:FATAL,net.p2p:FATAL,net.cn:FATAL,global:INFO,verify:FATAL,stacktrace:INFO,logging:INFO,msgwriter:INFO
+2019-06-17 22:56:27.605	  0x7fff9229f380	INFO 	global	contrib/epee/include/net/http_server_impl_base.h:76	Binding on 127.0.0.1:28083
+2019-06-17 22:56:27.609	  0x7fff9229f380	WARN 	wallet.rpc	src/wallet/wallet_rpc_server.cpp:3455	Starting wallet RPC server
+2019-06-17 22:56:30.052	[RPC0]	WARN 	default	src/mnemonics/language_base.h:110	Español word 'asa' is shorter than its prefix length, 4
+2019-06-17 22:56:30.053	[RPC0]	WARN 	default	src/mnemonics/language_base.h:110	Español word 'ave' is shorter than its prefix length, 4
+2019-06-17 22:56:30.053	[RPC0]	WARN 	default	src/mnemonics/language_base.h:110	Español word 'boa' is shorter than its prefix length, 4
+2019-06-17 22:56:30.054	[RPC0]	WARN 	default	src/mnemonics/language_base.h:110	Español word 'cal' is shorter than its prefix length, 4
+2019-06-17 22:56:30.055	[RPC0]	WARN 	default	src/mnemonics/language_base.h:110	Español word 'dar' is shorter than its prefix length, 4
+2019-06-17 22:56:30.055	[RPC0]	WARN 	default	src/mnemonics/language_base.h:110	Español word 'don' is shorter than its prefix length, 4
+2019-06-17 22:56:30.055	[RPC0]	WARN 	default	src/mnemonics/language_base.h:110	Español word 'dos' is shorter than its prefix length, 4
+2019-06-17 22:56:30.055	[RPC0]	WARN 	default	src/mnemonics/language_base.h:110	Español word 'eco' is shorter than its prefix length, 4
+2019-06-17 22:56:30.055	[RPC0]	WARN 	default	src/mnemonics/language_base.h:110	Español word 'eje' is shorter than its prefix length, 4
+2019-06-17 22:56:30.056	[RPC0]	WARN 	default	src/mnemonics/language_base.h:110	Español word 'fax' is shorter than its prefix length, 4
+2019-06-17 22:56:30.056	[RPC0]	WARN 	default	src/mnemonics/language_base.h:110	Español word 'feo' is shorter than its prefix length, 4
+2019-06-17 22:56:30.056	[RPC0]	WARN 	default	src/mnemonics/language_base.h:110	Español word 'fin' is shorter than its prefix length, 4
+2019-06-17 22:56:30.056	[RPC0]	WARN 	default	src/mnemonics/language_base.h:110	Español word 'gen' is shorter than its prefix length, 4
+2019-06-17 22:56:30.057	[RPC0]	WARN 	default	src/mnemonics/language_base.h:110	Español word 'gol' is shorter than its prefix length, 4
+2019-06-17 22:56:30.058	[RPC0]	WARN 	default	src/mnemonics/language_base.h:110	Español word 'haz' is shorter than its prefix length, 4
+2019-06-17 22:56:30.058	[RPC0]	WARN 	default	src/mnemonics/language_base.h:110	Español word 'ira' is shorter than its prefix length, 4
+2019-06-17 22:56:30.059	[RPC0]	WARN 	default	src/mnemonics/language_base.h:110	Español word 'luz' is shorter than its prefix length, 4
+2019-06-17 22:56:30.059	[RPC0]	WARN 	default	src/mnemonics/language_base.h:110	Español word 'mar' is shorter than its prefix length, 4
+2019-06-17 22:56:30.060	[RPC0]	WARN 	default	src/mnemonics/language_base.h:110	Español word 'mes' is shorter than its prefix length, 4
+2019-06-17 22:56:30.060	[RPC0]	WARN 	default	src/mnemonics/language_base.h:110	Español word 'mil' is shorter than its prefix length, 4
+2019-06-17 22:56:30.061	[RPC0]	WARN 	default	src/mnemonics/language_base.h:110	Español word 'oca' is shorter than its prefix length, 4
+2019-06-17 22:56:30.061	[RPC0]	WARN 	default	src/mnemonics/language_base.h:110	Español word 'ojo' is shorter than its prefix length, 4
+2019-06-17 22:56:30.061	[RPC0]	WARN 	default	src/mnemonics/language_base.h:110	Español word 'ola' is shorter than its prefix length, 4
+2019-06-17 22:56:30.061	[RPC0]	WARN 	default	src/mnemonics/language_base.h:110	Español word 'oro' is shorter than its prefix length, 4
+2019-06-17 22:56:30.061	[RPC0]	WARN 	default	src/mnemonics/language_base.h:110	Español word 'oso' is shorter than its prefix length, 4
+2019-06-17 22:56:30.062	[RPC0]	WARN 	default	src/mnemonics/language_base.h:110	Español word 'pan' is shorter than its prefix length, 4
+2019-06-17 22:56:30.062	[RPC0]	WARN 	default	src/mnemonics/language_base.h:110	Español word 'pez' is shorter than its prefix length, 4
+2019-06-17 22:56:30.062	[RPC0]	WARN 	default	src/mnemonics/language_base.h:110	Español word 'pie' is shorter than its prefix length, 4
+2019-06-17 22:56:30.062	[RPC0]	WARN 	default	src/mnemonics/language_base.h:110	Español word 'red' is shorter than its prefix length, 4
+2019-06-17 22:56:30.063	[RPC0]	WARN 	default	src/mnemonics/language_base.h:110	Español word 'res' is shorter than its prefix length, 4
+2019-06-17 22:56:30.063	[RPC0]	WARN 	default	src/mnemonics/language_base.h:110	Español word 'rey' is shorter than its prefix length, 4
+2019-06-17 22:56:30.253	[RPC0]	ERROR	wallet.wallet2	src/wallet/wallet2.cpp:3747	boost::filesystem::exists(m_wallet_file, ignored_ec). THROW EXCEPTION: error::file_exists
+2019-06-17 22:56:30.979	[RPC0]	WARN 	wallet.wallet2	src/wallet/wallet2.cpp:4593	Loaded wallet keys file, with public address: 4AFGFWbgakPaDgZ7128Ght8S1TMjYGdqVTzBXoV14UgZ59SbM3cwZsJfPWBRqQoDcNV64iDsrKNBGKWoH4HjHbFiHLp4J4H
+2019-06-17 22:56:34.730	[RPC0]	ERROR	wallet.wallet2	src/wallet/wallet2.cpp:4585	!is_keys_file_locked(). THROW EXCEPTION: error::wallet_internal_error
+2019-06-17 22:56:38.858	[RPC0]	ERROR	wallet.wallet2	src/wallet/wallet2.cpp:4585	!is_keys_file_locked(). THROW EXCEPTION: error::wallet_internal_error
+2019-06-17 22:56:41.953	[RPC0]	ERROR	wallet.wallet2	src/wallet/wallet2.cpp:4585	!is_keys_file_locked(). THROW EXCEPTION: error::wallet_internal_error
+2019-06-17 22:56:44.822	[RPC0]	ERROR	wallet.wallet2	src/wallet/wallet2.cpp:4585	!is_keys_file_locked(). THROW EXCEPTION: error::wallet_internal_error
+2019-06-17 22:57:02.733	[RPC0]	ERROR	wallet.wallet2	src/wallet/wallet2.cpp:4585	!is_keys_file_locked(). THROW EXCEPTION: error::wallet_internal_error
+2019-06-17 22:57:10.206	[RPC0]	ERROR	wallet.wallet2	src/wallet/wallet2.cpp:4585	!is_keys_file_locked(). THROW EXCEPTION: error::wallet_internal_error
+2019-06-17 22:57:16.041	[RPC0]	ERROR	wallet.wallet2	src/wallet/wallet2.cpp:4585	!is_keys_file_locked(). THROW EXCEPTION: error::wallet_internal_error
+2019-06-17 22:57:20.974	[RPC0]	ERROR	wallet.wallet2	src/wallet/wallet2.cpp:4585	!is_keys_file_locked(). THROW EXCEPTION: error::wallet_internal_error
+2019-06-17 22:57:33.942	[RPC0]	ERROR	wallet.wallet2	src/wallet/wallet2.cpp:3747	boost::filesystem::exists(m_wallet_file, ignored_ec). THROW EXCEPTION: error::file_exists
+2019-06-17 22:57:34.152	[RPC0]	ERROR	wallet.wallet2	src/wallet/wallet2.cpp:4585	!is_keys_file_locked(). THROW EXCEPTION: error::wallet_internal_error
+2019-06-17 22:57:42.601	[SRV_MAIN]	WARN 	wallet.rpc	src/wallet/wallet_rpc_server.cpp:3465	Stopped wallet RPC server
+2019-06-17 22:57:42.602	[SRV_MAIN]	WARN 	wallet.rpc	src/wallet/wallet_rpc_server.cpp:3468	Saving wallet...
+2019-06-17 22:57:42.665	[SRV_MAIN]	WARN 	wallet.rpc	src/wallet/wallet_rpc_server.cpp:3470	Successfully saved
+2019-06-17 22:57:47.098	  0x7fff9229f380	INFO 	logging	contrib/epee/src/mlog.cpp:277	New log categories: *:WARNING,net:FATAL,net.http:FATAL,net.p2p:FATAL,net.cn:FATAL,global:INFO,verify:FATAL,stacktrace:INFO,logging:INFO,msgwriter:INFO
+2019-06-17 22:57:47.101	  0x7fff9229f380	INFO 	global	contrib/epee/include/net/http_server_impl_base.h:76	Binding on 127.0.0.1:28083
+2019-06-17 22:57:47.107	  0x7fff9229f380	WARN 	wallet.rpc	src/wallet/wallet_rpc_server.cpp:3455	Starting wallet RPC server
+2019-06-17 22:57:50.552	[RPC0]	WARN 	default	src/mnemonics/language_base.h:110	Español word 'asa' is shorter than its prefix length, 4
+2019-06-17 22:57:50.553	[RPC0]	WARN 	default	src/mnemonics/language_base.h:110	Español word 'ave' is shorter than its prefix length, 4
+2019-06-17 22:57:50.554	[RPC0]	WARN 	default	src/mnemonics/language_base.h:110	Español word 'boa' is shorter than its prefix length, 4
+2019-06-17 22:57:50.555	[RPC0]	WARN 	default	src/mnemonics/language_base.h:110	Español word 'cal' is shorter than its prefix length, 4
+2019-06-17 22:57:50.555	[RPC0]	WARN 	default	src/mnemonics/language_base.h:110	Español word 'dar' is shorter than its prefix length, 4
+2019-06-17 22:57:50.556	[RPC0]	WARN 	default	src/mnemonics/language_base.h:110	Español word 'don' is shorter than its prefix length, 4
+2019-06-17 22:57:50.556	[RPC0]	WARN 	default	src/mnemonics/language_base.h:110	Español word 'dos' is shorter than its prefix length, 4
+2019-06-17 22:57:50.556	[RPC0]	WARN 	default	src/mnemonics/language_base.h:110	Español word 'eco' is shorter than its prefix length, 4
+2019-06-17 22:57:50.556	[RPC0]	WARN 	default	src/mnemonics/language_base.h:110	Español word 'eje' is shorter than its prefix length, 4
+2019-06-17 22:57:50.557	[RPC0]	WARN 	default	src/mnemonics/language_base.h:110	Español word 'fax' is shorter than its prefix length, 4
+2019-06-17 22:57:50.557	[RPC0]	WARN 	default	src/mnemonics/language_base.h:110	Español word 'feo' is shorter than its prefix length, 4
+2019-06-17 22:57:50.557	[RPC0]	WARN 	default	src/mnemonics/language_base.h:110	Español word 'fin' is shorter than its prefix length, 4
+2019-06-17 22:57:50.561	[RPC0]	WARN 	default	src/mnemonics/language_base.h:110	Español word 'gen' is shorter than its prefix length, 4
+2019-06-17 22:57:50.562	[RPC0]	WARN 	default	src/mnemonics/language_base.h:110	Español word 'gol' is shorter than its prefix length, 4
+2019-06-17 22:57:50.747	[RPC0]	WARN 	default	src/mnemonics/language_base.h:110	Español word 'haz' is shorter than its prefix length, 4
+2019-06-17 22:57:50.748	[RPC0]	WARN 	default	src/mnemonics/language_base.h:110	Español word 'ira' is shorter than its prefix length, 4
+2019-06-17 22:57:50.749	[RPC0]	WARN 	default	src/mnemonics/language_base.h:110	Español word 'luz' is shorter than its prefix length, 4
+2019-06-17 22:57:50.749	[RPC0]	WARN 	default	src/mnemonics/language_base.h:110	Español word 'mar' is shorter than its prefix length, 4
+2019-06-17 22:57:50.749	[RPC0]	WARN 	default	src/mnemonics/language_base.h:110	Español word 'mes' is shorter than its prefix length, 4
+2019-06-17 22:57:50.749	[RPC0]	WARN 	default	src/mnemonics/language_base.h:110	Español word 'mil' is shorter than its prefix length, 4
+2019-06-17 22:57:50.750	[RPC0]	WARN 	default	src/mnemonics/language_base.h:110	Español word 'oca' is shorter than its prefix length, 4
+2019-06-17 22:57:50.750	[RPC0]	WARN 	default	src/mnemonics/language_base.h:110	Español word 'ojo' is shorter than its prefix length, 4
+2019-06-17 22:57:50.750	[RPC0]	WARN 	default	src/mnemonics/language_base.h:110	Español word 'ola' is shorter than its prefix length, 4
+2019-06-17 22:57:50.750	[RPC0]	WARN 	default	src/mnemonics/language_base.h:110	Español word 'oro' is shorter than its prefix length, 4
+2019-06-17 22:57:50.750	[RPC0]	WARN 	default	src/mnemonics/language_base.h:110	Español word 'oso' is shorter than its prefix length, 4
+2019-06-17 22:57:50.750	[RPC0]	WARN 	default	src/mnemonics/language_base.h:110	Español word 'pan' is shorter than its prefix length, 4
+2019-06-17 22:57:50.751	[RPC0]	WARN 	default	src/mnemonics/language_base.h:110	Español word 'pez' is shorter than its prefix length, 4
+2019-06-17 22:57:50.751	[RPC0]	WARN 	default	src/mnemonics/language_base.h:110	Español word 'pie' is shorter than its prefix length, 4
+2019-06-17 22:57:50.751	[RPC0]	WARN 	default	src/mnemonics/language_base.h:110	Español word 'red' is shorter than its prefix length, 4
+2019-06-17 22:57:50.752	[RPC0]	WARN 	default	src/mnemonics/language_base.h:110	Español word 'res' is shorter than its prefix length, 4
+2019-06-17 22:57:50.752	[RPC0]	WARN 	default	src/mnemonics/language_base.h:110	Español word 'rey' is shorter than its prefix length, 4
+2019-06-17 22:57:50.982	[RPC0]	ERROR	wallet.wallet2	src/wallet/wallet2.cpp:3747	boost::filesystem::exists(m_wallet_file, ignored_ec). THROW EXCEPTION: error::file_exists
+2019-06-17 22:57:51.500	[RPC0]	WARN 	wallet.wallet2	src/wallet/wallet2.cpp:4593	Loaded wallet keys file, with public address: 487SFtn8csafk4KjdithL42oLJTx762G1TFNoUxdSHDYWNisTyT6z3d5PXSP6ap9U8jCLWBn5xKXzVpBuD5KtLmPSvTA5aN
+2019-06-17 22:57:55.661	[RPC0]	ERROR	wallet.wallet2	src/wallet/wallet2.cpp:4585	!is_keys_file_locked(). THROW EXCEPTION: error::wallet_internal_error
+2019-06-17 22:57:59.711	[RPC0]	ERROR	wallet.wallet2	src/wallet/wallet2.cpp:4585	!is_keys_file_locked(). THROW EXCEPTION: error::wallet_internal_error
+2019-06-17 22:58:07.053	[RPC0]	ERROR	wallet.wallet2	src/wallet/wallet2.cpp:3747	boost::filesystem::exists(m_wallet_file, ignored_ec). THROW EXCEPTION: error::file_exists
+2019-06-17 22:58:07.342	[RPC0]	ERROR	wallet.wallet2	src/wallet/wallet2.cpp:4585	!is_keys_file_locked(). THROW EXCEPTION: error::wallet_internal_error
+2019-06-17 22:58:25.864	[RPC0]	ERROR	wallet.wallet2	src/wallet/wallet2.cpp:3747	boost::filesystem::exists(m_wallet_file, ignored_ec). THROW EXCEPTION: error::file_exists
+2019-06-17 22:58:25.991	[RPC0]	ERROR	wallet.wallet2	src/wallet/wallet2.cpp:4585	!is_keys_file_locked(). THROW EXCEPTION: error::wallet_internal_error
+2019-06-17 22:58:28.209	[RPC0]	ERROR	wallet.wallet2	src/wallet/wallet2.cpp:4585	!is_keys_file_locked(). THROW EXCEPTION: error::wallet_internal_error
+2019-06-17 22:58:30.785	[RPC0]	ERROR	wallet.wallet2	src/wallet/wallet2.cpp:4585	!is_keys_file_locked(). THROW EXCEPTION: error::wallet_internal_error
+2019-06-17 22:58:33.446	[RPC0]	ERROR	wallet.wallet2	src/wallet/wallet2.cpp:4585	!is_keys_file_locked(). THROW EXCEPTION: error::wallet_internal_error
+2019-06-17 22:58:36.315	[RPC0]	ERROR	wallet.wallet2	src/wallet/wallet2.cpp:4585	!is_keys_file_locked(). THROW EXCEPTION: error::wallet_internal_error
+2019-06-17 22:58:39.294	[RPC0]	ERROR	wallet.wallet2	src/wallet/wallet2.cpp:4585	!is_keys_file_locked(). THROW EXCEPTION: error::wallet_internal_error
+2019-06-17 22:58:50.062	[RPC0]	ERROR	wallet.wallet2	src/wallet/wallet2.cpp:4585	!is_keys_file_locked(). THROW EXCEPTION: error::wallet_internal_error
+2019-06-17 22:59:01.640	[RPC0]	ERROR	wallet.wallet2	src/wallet/wallet2.cpp:4585	!is_keys_file_locked(). THROW EXCEPTION: error::wallet_internal_error
+2019-06-17 22:59:05.728	[RPC0]	ERROR	wallet.wallet2	src/wallet/wallet2.cpp:4585	!is_keys_file_locked(). THROW EXCEPTION: error::wallet_internal_error
+2019-06-17 22:59:09.091	[RPC0]	ERROR	wallet.wallet2	src/wallet/wallet2.cpp:4585	!is_keys_file_locked(). THROW EXCEPTION: error::wallet_internal_error
+2019-06-17 22:59:20.514	[RPC0]	ERROR	wallet.wallet2	src/wallet/wallet2.cpp:4585	!is_keys_file_locked(). THROW EXCEPTION: error::wallet_internal_error
+2019-06-17 22:59:29.754	[RPC0]	ERROR	wallet.wallet2	src/wallet/wallet2.cpp:4585	!is_keys_file_locked(). THROW EXCEPTION: error::wallet_internal_error
+2019-06-17 22:59:32.863	[RPC0]	ERROR	wallet.wallet2	src/wallet/wallet2.cpp:4585	!is_keys_file_locked(). THROW EXCEPTION: error::wallet_internal_error
+2019-06-17 22:59:37.027	[RPC0]	ERROR	wallet.wallet2	src/wallet/wallet2.cpp:4585	!is_keys_file_locked(). THROW EXCEPTION: error::wallet_internal_error
+2019-06-17 22:59:40.432	[RPC0]	ERROR	wallet.wallet2	src/wallet/wallet2.cpp:4585	!is_keys_file_locked(). THROW EXCEPTION: error::wallet_internal_error
+2019-06-17 22:59:55.017	[RPC0]	ERROR	wallet.wallet2	src/wallet/wallet2.cpp:4585	!is_keys_file_locked(). THROW EXCEPTION: error::wallet_internal_error
+2019-06-17 22:59:59.138	[RPC0]	ERROR	wallet.wallet2	src/wallet/wallet2.cpp:4585	!is_keys_file_locked(). THROW EXCEPTION: error::wallet_internal_error
+2019-06-17 23:00:01.950	[RPC0]	ERROR	wallet.wallet2	src/wallet/wallet2.cpp:4585	!is_keys_file_locked(). THROW EXCEPTION: error::wallet_internal_error
+2019-06-17 23:00:04.661	[RPC0]	ERROR	wallet.wallet2	src/wallet/wallet2.cpp:4585	!is_keys_file_locked(). THROW EXCEPTION: error::wallet_internal_error
+2019-06-17 23:00:08.127	[RPC0]	ERROR	wallet.wallet2	src/wallet/wallet2.cpp:4585	!is_keys_file_locked(). THROW EXCEPTION: error::wallet_internal_error

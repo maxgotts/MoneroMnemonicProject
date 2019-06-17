@@ -4,6 +4,7 @@
   "description": "Monero wallet generation and tx creation",
   "main": "index.js",
   "dependencies": {
+    "fs": "0.0.1-security",
     "js-sha1": "^0.6.0",
     "monerojs": "^0.1.8"
   },
