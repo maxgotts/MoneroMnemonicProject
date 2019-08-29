@@ -1927,3 +1927,40 @@
 2019-06-17 23:15:53.330	[SRV_MAIN]	WARN 	wallet.rpc	src/wallet/wallet_rpc_server.cpp:3465	Stopped wallet RPC server
 2019-06-17 23:15:53.330	[SRV_MAIN]	WARN 	wallet.rpc	src/wallet/wallet_rpc_server.cpp:3468	Saving wallet...
 2019-06-17 23:15:53.344	[SRV_MAIN]	WARN 	wallet.rpc	src/wallet/wallet_rpc_server.cpp:3470	Successfully saved
+2019-08-29 21:03:00.235	     0x105cb75c0	INFO 	logging	contrib/epee/src/mlog.cpp:277	New log categories: *:WARNING,net:FATAL,net.http:FATAL,net.p2p:FATAL,net.cn:FATAL,global:INFO,verify:FATAL,stacktrace:INFO,logging:INFO,msgwriter:INFO
+2019-08-29 21:03:00.238	     0x105cb75c0	INFO 	global	contrib/epee/include/net/http_server_impl_base.h:76	Binding on 127.0.0.1:28083
+2019-08-29 21:03:00.239	     0x105cb75c0	WARN 	wallet.rpc	src/wallet/wallet_rpc_server.cpp:3455	Starting wallet RPC server
+2019-08-29 21:03:38.035	[RPC0]	WARN 	default	src/mnemonics/language_base.h:110	Español word 'asa' is shorter than its prefix length, 4
+2019-08-29 21:03:38.035	[RPC0]	WARN 	default	src/mnemonics/language_base.h:110	Español word 'ave' is shorter than its prefix length, 4
+2019-08-29 21:03:38.035	[RPC0]	WARN 	default	src/mnemonics/language_base.h:110	Español word 'boa' is shorter than its prefix length, 4
+2019-08-29 21:03:38.035	[RPC0]	WARN 	default	src/mnemonics/language_base.h:110	Español word 'cal' is shorter than its prefix length, 4
+2019-08-29 21:03:38.036	[RPC0]	WARN 	default	src/mnemonics/language_base.h:110	Español word 'dar' is shorter than its prefix length, 4
+2019-08-29 21:03:38.036	[RPC0]	WARN 	default	src/mnemonics/language_base.h:110	Español word 'don' is shorter than its prefix length, 4
+2019-08-29 21:03:38.036	[RPC0]	WARN 	default	src/mnemonics/language_base.h:110	Español word 'dos' is shorter than its prefix length, 4
+2019-08-29 21:03:38.036	[RPC0]	WARN 	default	src/mnemonics/language_base.h:110	Español word 'eco' is shorter than its prefix length, 4
+2019-08-29 21:03:38.036	[RPC0]	WARN 	default	src/mnemonics/language_base.h:110	Español word 'eje' is shorter than its prefix length, 4
+2019-08-29 21:03:38.036	[RPC0]	WARN 	default	src/mnemonics/language_base.h:110	Español word 'fax' is shorter than its prefix length, 4
+2019-08-29 21:03:38.036	[RPC0]	WARN 	default	src/mnemonics/language_base.h:110	Español word 'feo' is shorter than its prefix length, 4
+2019-08-29 21:03:38.036	[RPC0]	WARN 	default	src/mnemonics/language_base.h:110	Español word 'fin' is shorter than its prefix length, 4
+2019-08-29 21:03:38.036	[RPC0]	WARN 	default	src/mnemonics/language_base.h:110	Español word 'gen' is shorter than its prefix length, 4
+2019-08-29 21:03:38.036	[RPC0]	WARN 	default	src/mnemonics/language_base.h:110	Español word 'gol' is shorter than its prefix length, 4
+2019-08-29 21:03:38.037	[RPC0]	WARN 	default	src/mnemonics/language_base.h:110	Español word 'haz' is shorter than its prefix length, 4
+2019-08-29 21:03:38.037	[RPC0]	WARN 	default	src/mnemonics/language_base.h:110	Español word 'ira' is shorter than its prefix length, 4
+2019-08-29 21:03:38.037	[RPC0]	WARN 	default	src/mnemonics/language_base.h:110	Español word 'luz' is shorter than its prefix length, 4
+2019-08-29 21:03:38.037	[RPC0]	WARN 	default	src/mnemonics/language_base.h:110	Español word 'mar' is shorter than its prefix length, 4
+2019-08-29 21:03:38.037	[RPC0]	WARN 	default	src/mnemonics/language_base.h:110	Español word 'mes' is shorter than its prefix length, 4
+2019-08-29 21:03:38.037	[RPC0]	WARN 	default	src/mnemonics/language_base.h:110	Español word 'mil' is shorter than its prefix length, 4
+2019-08-29 21:03:38.038	[RPC0]	WARN 	default	src/mnemonics/language_base.h:110	Español word 'oca' is shorter than its prefix length, 4
+2019-08-29 21:03:38.038	[RPC0]	WARN 	default	src/mnemonics/language_base.h:110	Español word 'ojo' is shorter than its prefix length, 4
+2019-08-29 21:03:38.038	[RPC0]	WARN 	default	src/mnemonics/language_base.h:110	Español word 'ola' is shorter than its prefix length, 4
+2019-08-29 21:03:38.038	[RPC0]	WARN 	default	src/mnemonics/language_base.h:110	Español word 'oro' is shorter than its prefix length, 4
+2019-08-29 21:03:38.038	[RPC0]	WARN 	default	src/mnemonics/language_base.h:110	Español word 'oso' is shorter than its prefix length, 4
+2019-08-29 21:03:38.038	[RPC0]	WARN 	default	src/mnemonics/language_base.h:110	Español word 'pan' is shorter than its prefix length, 4
+2019-08-29 21:03:38.038	[RPC0]	WARN 	default	src/mnemonics/language_base.h:110	Español word 'pez' is shorter than its prefix length, 4
+2019-08-29 21:03:38.039	[RPC0]	WARN 	default	src/mnemonics/language_base.h:110	Español word 'pie' is shorter than its prefix length, 4
+2019-08-29 21:03:38.039	[RPC0]	WARN 	default	src/mnemonics/language_base.h:110	Español word 'red' is shorter than its prefix length, 4
+2019-08-29 21:03:38.039	[RPC0]	WARN 	default	src/mnemonics/language_base.h:110	Español word 'res' is shorter than its prefix length, 4
+2019-08-29 21:03:38.039	[RPC0]	WARN 	default	src/mnemonics/language_base.h:110	Español word 'rey' is shorter than its prefix length, 4
+2019-08-29 21:03:38.640	[RPC0]	ERROR	wallet.wallet2	src/wallet/wallet2.cpp:4585	!is_keys_file_locked(). THROW EXCEPTION: error::wallet_internal_error
+2019-08-29 21:03:39.276	[RPC0]	ERROR	wallet.wallet2	src/wallet/wallet2.cpp:4585	!is_keys_file_locked(). THROW EXCEPTION: error::wallet_internal_error
+2019-08-29 21:03:39.945	[RPC0]	ERROR	wallet.wallet2	src/wallet/wallet2.cpp:4585	!is_keys_file_locked(). THROW EXCEPTION: error::wallet_internal_error
