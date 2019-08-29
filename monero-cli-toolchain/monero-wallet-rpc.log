@@ -1964,3 +1964,6 @@
 2019-08-29 21:03:38.640	[RPC0]	ERROR	wallet.wallet2	src/wallet/wallet2.cpp:4585	!is_keys_file_locked(). THROW EXCEPTION: error::wallet_internal_error
 2019-08-29 21:03:39.276	[RPC0]	ERROR	wallet.wallet2	src/wallet/wallet2.cpp:4585	!is_keys_file_locked(). THROW EXCEPTION: error::wallet_internal_error
 2019-08-29 21:03:39.945	[RPC0]	ERROR	wallet.wallet2	src/wallet/wallet2.cpp:4585	!is_keys_file_locked(). THROW EXCEPTION: error::wallet_internal_error
+2019-08-29 21:09:33.861	[SRV_MAIN]	WARN 	wallet.rpc	src/wallet/wallet_rpc_server.cpp:3465	Stopped wallet RPC server
+2019-08-29 21:09:33.861	[SRV_MAIN]	WARN 	wallet.rpc	src/wallet/wallet_rpc_server.cpp:3468	Saving wallet...
+2019-08-29 21:09:33.905	[SRV_MAIN]	WARN 	wallet.rpc	src/wallet/wallet_rpc_server.cpp:3470	Successfully saved
