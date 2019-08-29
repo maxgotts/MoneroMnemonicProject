@@ -1,25 +1,21 @@
 {
-  "name": "basicmoneroproject",
+  "name": "venmonero",
   "version": "1.0.0",
-  "description": "Monero wallet generation and tx creation",
+  "description": "",
   "main": "index.js",
   "dependencies": {
-    "fs": "0.0.1-security",
-    "js-sha1": "^0.6.0",
+    "monero-nodejs": "^3.2.2",
     "monerojs": "^0.1.8"
   },
   "devDependencies": {},
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/maxgotts/BasicMoneroProject.git"
+    "url": "git+https://github.com/maxgotts/venmonero.git"
   },
-  "author": "maxgotts",
+  "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/maxgotts/BasicMoneroProject/issues"
+    "url": "https://github.com/maxgotts/venmonero/issues"
   },
-  "homepage": "https://github.com/maxgotts/BasicMoneroProject#readme"
+  "homepage": "https://github.com/maxgotts/venmonero#readme"
 }
