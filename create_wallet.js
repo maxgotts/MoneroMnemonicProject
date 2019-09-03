@@ -2,7 +2,7 @@ const Monero = require('monerojs');
 var fs = require('fs');
 
 const TheWalletName = "new-wallet"
-const mnemonicHint = "turtle"
+const mnemonicHint = ""
 
 /* Start up the Daemon RPC and Call createMnemonic */
 var daemonRPC = new Monero.daemonRPC({ autoconnect: true })

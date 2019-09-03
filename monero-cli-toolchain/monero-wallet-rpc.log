@@ -1967,3 +1967,9 @@
 2019-08-29 21:09:33.861	[SRV_MAIN]	WARN 	wallet.rpc	src/wallet/wallet_rpc_server.cpp:3465	Stopped wallet RPC server
 2019-08-29 21:09:33.861	[SRV_MAIN]	WARN 	wallet.rpc	src/wallet/wallet_rpc_server.cpp:3468	Saving wallet...
 2019-08-29 21:09:33.905	[SRV_MAIN]	WARN 	wallet.rpc	src/wallet/wallet_rpc_server.cpp:3470	Successfully saved
+2019-09-03 20:24:43.924	     0x10c7385c0	INFO 	logging	contrib/epee/src/mlog.cpp:277	New log categories: *:WARNING,net:FATAL,net.http:FATAL,net.p2p:FATAL,net.cn:FATAL,global:INFO,verify:FATAL,stacktrace:INFO,logging:INFO,msgwriter:INFO
+2019-09-03 20:24:43.927	     0x10c7385c0	INFO 	global	contrib/epee/include/net/http_server_impl_base.h:76	Binding on 127.0.0.1:28083
+2019-09-03 20:24:43.928	     0x10c7385c0	WARN 	wallet.rpc	src/wallet/wallet_rpc_server.cpp:3455	Starting wallet RPC server
+2019-09-03 20:24:49.047	[SRV_MAIN]	WARN 	wallet.rpc	src/wallet/wallet_rpc_server.cpp:3465	Stopped wallet RPC server
+2019-09-03 20:24:49.047	[SRV_MAIN]	WARN 	wallet.rpc	src/wallet/wallet_rpc_server.cpp:3468	Saving wallet...
+2019-09-03 20:24:49.047	[SRV_MAIN]	WARN 	wallet.rpc	src/wallet/wallet_rpc_server.cpp:3470	Successfully saved
